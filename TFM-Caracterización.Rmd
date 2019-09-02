@@ -1,0 +1,307 @@
+---
+title: "TFM-Caracterización"
+author: "Ana Sabater Aguado"
+output:
+  html_document:
+    toc: true
+    theme: united
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include=FALSE}
+setwd("C:/Users/yui-n/Desktop/TFM")
+```
+
+
+# 1. Caracterización de genes conocidos como causantes de Parkinson mediante InterMine
+
+Mediante un script de R, se llama a las diferentes API de minería de InterMine mencionadas con anterioridad. A partir de un listado de 34 genes conocidos como causantes de la enfermedad de Parkinson (EP), se extraen los términos de ontologías fenotípicas usadas en cada una de las bases de datos y se procede a evaluar la presencia de términos relacionados con los síntomas estudiados de la EP. La finalidad de este apartado es caracterizar los fenotipos asociados a la EP y analizar su prevalencia en nuestro listado de genes conocidos por causar EP.
+
+Para acceder a las APIs de InterMine desde R utilizaremos los paquetes **curl** y **jsonlite**.
+
+Estos genes conocidos provienen de un panel de genes generado por Genomics England (https://panelapp.genomicsengland.co.uk/panels/39/gene/IPPK/; 31 de marzo de 2017) para "Neurología y trastornos del desarrollo neurológico". Estos paneles de genes están altamente curados por más de 45 clínicos y científicos. Se trata de un listado de 34 símbolos de genes humanos.
+
+En el siguiente código filtraremos los genes asociados a EP:
+
+```{r}
+genegroups <- read.delim("C:/Users/yui-n/Desktop/TFM/genegroups.txt")
+# Filtrado de genes. Utilizaremos el paquete dplyr ya que facilita mucho esta tarea
+library(dplyr)
+genes.park <- genegroups %>% filter(Disease == "Parkinson Disease and Complex Parkinsonism")
+parkgenes <- as.character(genes.park$gene)
+cat("Listado de genes conocidos: ", "\n", parkgenes)
+cat("Número total de genes conocidos: ", length(parkgenes))
+```
+
+Para solventar el hecho de que el script pare cuando encuentra un gen que no devuelve información por no formar parte de la base de datos que se pretende consultar,  usaremos una función genérica que itera sobre la lista de genes aplicando las funciones específicas de cada plantilla dentro de las bases de datos que proporciona InterMine:
+
+```{r}
+# Funcion generica para la obtencion de terminos a partir de una lista de genes, una funcion fenotípica y una lista para guardar los resultados de la misma
+queryfunctionfromlistgenes = function(listagenes, funcionphenotype, phenotypeResultado){
+  for(gen in listagenes){
+    resultado = list(funcionphenotype(gen))
+    if (length(resultado) != 0){
+      phenotypeResultado <- c(phenotypeResultado, resultado)
+    } else {
+      phenotypeResultado <- c(phenotypeResultado, "gen no encontrado")
+      
+    }
+  }
+  names(phenotypeResultado) <-  listagenes
+  return(phenotypeResultado)
+}
+```
+
+## 1.1 Caracterización mediante la api de HumanMine, que devuelve los términos Human Phenotype (HP) para el listado de genes conocidos
+
+El primer paso en la evaluación será comprobar si dichos genes han sido correlacionados con anterioridad con el Parkinson. OMIM es la base de datos de referencia para enfermedades genéticas, y HumanMine nos ofrece una herramienta potente para mapear nuestra lista de genes contra ella.
+
+El código presentado a continuación devuelve los términos HP para cada gen:
+
+```{r}
+# Creamos una lista para almacenar los terminos HP de una lista de genes
+HPobjeto = list()
+# Funcion para obtener los terminos OMIM y HP
+phenotypeHPfromgenes = function(gen){
+  req <- curl::curl_fetch_memory(paste0("http://www.humanmine.org/humanmine/service/template/results?name=Gene_Disease_HPO&constraint1=Gene&op1=LOOKUP&value1=",
+                                        paste0(gen,collapse=","),"&extra1=H.+sapiens&format=json"))
+  myjson = jsonlite::fromJSON(rawToChar(req$content))
+  # Guardamos el apartado "results" en un dataframe
+  resultadosHP <- myjson[["results"]]
+  # Extraemos la columna con los terminos OMIM
+  if (length(resultadosHP) != 0) {
+  HPobjeto = resultadosHP[,6]
+  }
+}
+
+# Lista generica para iterar
+resultados1 = list()
+# Obtencion de los terminos OMIM
+HPresultados = queryfunctionfromlistgenes(parkgenes, phenotypeHPfromgenes, resultados1)
+str(HPresultados)
+```
+
+A partir del objeto devuelto por la función anterior, se procedió a evaluar de forma manual la prevalencia de términos relacionados con los síntomas observados en la revisión bibliográfica sobre la EP.
+
+## 1.2 Caracterización mediante la api de MouseMine, que devuelve los términos Mammalian Phenotype (MP) deratón para el listado de genes conocidos
+
+MouseMine nos ofrece la posibilidad de mapear de forma directa genes humanos para obtener los términos Mammalian Phenotype (MP)) desde la base de datos Mouse Genome Informatics (MGI- http://www.informatics.jax.org). 
+
+MouseMine obtiene los ortólogos de ratón internamente a través de Homologene (https://www.ncbi.nlm.nih.gov/homologene) y Panther (http://www.pantherdb.org/).
+
+```{r}
+# Objeto en el que se almacenara el resultado de la api MouseMine
+MIGobjeto <- list()
+
+phenotypeMGIfromgenes = function(gen){
+  req <- curl::curl_fetch_memory(paste0("http://www.mousemine.org/mousemine/service/template/results?name=HGene_MPhenotype&constraint1=Gene&op1=LOOKUP&value1=",
+                                        paste0(gen,collapse=","),"&extra1=&format=json"))
+  myjson = jsonlite::fromJSON(rawToChar(req$content))
+  # Guardamos el apartado "results" en un dataframe
+  resultadosMIG <- myjson[["results"]]
+  # Extraemos la columna con los MP
+  if (length(resultadosMIG) != 0) {
+  MIGobjeto = list(resultadosMIG[,7])
+  }
+}
+
+# Lista generica para iterar
+resultados1 = list()
+# Obtencion de los terminos OMIM
+MGIresultados = queryfunctionfromlistgenes(parkgenes, phenotypeMGIfromgenes, resultados1)
+str(MGIresultados)
+```
+
+De nuevo, se procedió a evaluar de forma manual la prevalencia de términos relacionados con los síntomas observados en la revisión bibliográfica sobre la EP.
+
+## 1.3  Caracterización mediante la api de MousePhenotype (IMPC), que devuelve los términos Mammalian Phenotype (MP) de ratón para el listado de genes conocidos
+
+MousePhenotype (IMPC) es otra base de datos de fenotipos de ratón. De igual forma que en la base de datos anterior, nos permite obtener los MP de los genes.
+
+IMPC requiere que los símbolos solo tengan la primera letra en mayúscula, por lo que requiere un preprocesamiento de nuestra lista de genes:
+
+```{r}
+# Convertimos todas las letras en minuscula
+parkallLower <- sapply(parkgenes, tolower)
+# Convertimos la primera letra en mayuscula
+parkLower <- paste0(toupper(substr(parkallLower, 1, 1)), substr(parkallLower, 2, nchar(parkallLower)))
+```
+
+A continuación presentamos el código utilizado para obtener los MP a partir de la API de IMPC:
+
+```{r}
+# Creamos una lista para almacenar los terminos MP de una lista de genes
+myMPid = list()
+# Funcion para obtener los MP_id desde la api de IMPC a partir del simbolo de un gen
+phenotypeIMPCfromgenes = function(gen){
+  req <- curl::curl_fetch_memory(paste0("http://www.ebi.ac.uk/mi/impc/solr/genotype-phenotype/select?q=marker_symbol:",
+                                        paste0(gen,collapse=","),"&wt=json","/"))
+  myjson = jsonlite::fromJSON(rawToChar(req$content))
+  # Queremos guardar los terminos MP_id contenidos dentro del objeto JSON
+  myMPid = myjson[["response"]][["docs"]][["mp_term_id"]]
+}
+
+# Lista generica para iterar
+resultados1 = list()
+# Obtencion de los terminos OMIM
+IMPCresultados = queryfunctionfromlistgenes(parkLower, phenotypeIMPCfromgenes, resultados1)
+str(IMPCresultados)
+```
+
+Se procedió a evaluar de forma manual la prevalencia de términos relacionados con los síntomas observados en la revisión bibliográfica sobre la EP.
+
+## 1.4 Caracterización mediante la api de RatMine, que devuelve los términos Mammalian Phenotype (MP) de rata para el listado de genes conocidos
+
+RatMine también obtiene los ortólogos mediante Panther. En el siguiente código extraeremos los términos MP de los genes conocidos en rata:
+
+```{r}
+# Creamos una lista para almacenar los terminos MP de una lista de genes
+MPobjeto = list()
+# Funcion para obtener los terminos MP
+phenotypeMPratfromgenes = function(gen){
+  req <- curl::curl_fetch_memory(paste0("http://ratmine.mcw.edu/ratmine/service/template/results?name=gene_to_mpterms&constraint1=Gene.organism.shortName&op1=eq&value1=R.+norvegicus&constraint2=Gene&op2=LOOKUP&value2=",
+                                        paste0(gen,collapse=","),"&extra2=&format=json"))
+  resjson = jsonlite::fromJSON(rawToChar(req$content))
+  # Guardamos el apartado "results" en un dataframe
+  resultadosjson <- resjson[["results"]]
+  # Extraemos la columna con los terminos MP
+  if (length(resultadosjson) != 0) {
+    MPobjeto = resultadosjson[,5]
+  }
+}
+
+# Lista generica para iterar
+resultados1 = list()
+# Obtencion de los terminos OMIM
+MPratresultados = queryfunctionfromlistgenes(parkgenes, phenotypeMPratfromgenes, resultados1)
+str(MPratresultados)
+```
+
+Se procedió a evaluar de forma manual la prevalencia de términos relacionados con los síntomas observados en la revisión bibliográfica sobre la EP.
+
+## 1.5 Caracterización mediante la api de FlyMine, que devuelve los términos Fly Anatomy (FBbt) y FlyBase Controlled vocabulary (FBcv) de Drosofila melanogaster para el listado de genes conocidos
+
+Flymine no nos permite usar directamente genes de humano, por lo que primero obtendremos los ortólogos de D. melanogaster a partir de la herramienta HumanMine:
+
+```{r}
+# Creamos una lista para almacenar los terminos MP de una lista de genes
+ortologoMosca = list()
+# Funcion para obtener los terminos MP
+ortologoFlyfromgenes = function(gen){
+  req <- curl::curl_fetch_memory(paste0("http://www.humanmine.org/humanmine/service/template/results?name=Gene_Orth&constraint1=Gene&op1=LOOKUP&value1=",
+                                        paste0(gen,collapse=","),"&extra1=H.+sapiens&format=json"))
+  json = jsonlite::fromJSON(rawToChar(req$content))
+  # Guardamos el apartado "results" en un dataframe
+  resultadosjson <- json[["results"]]
+  # Extraemos la columna con los terminos MP
+  if (length(resultadosjson) != 0) {
+    # Filtramos por la especia D. melanogaster
+    resjson = resultadosjson[resultadosjson[,5]== "D. melanogaster",]
+      # Si hay mas de 1 gen ortologo de mosca:
+      if (is.matrix(resjson)){
+      # Extraemos los ortologos
+        ortologo = resjson[,3] 
+        } else { 
+      # Extraemos los ortologos
+        ortologoMosca = resjson[3] 
+    }
+  }
+}
+# Lista generica para iterar
+resultados1 = list()
+# Obtencion de los terminos OMIM
+ortologosFlyresultados = queryfunctionfromlistgenes(parkgenes, ortologoFlyfromgenes, resultados1)
+str(ortologosFlyresultados)
+```
+
+Una vez obtenidos los ortólogos de drosofila, podemos obtener los términos fenotípicos  a través de FlyMine:
+
+```{r}
+resjson = list()
+# Funcion para obtener las enfermedades
+phenotypeflyfromgenes = function(gen){
+  req <- curl::curl_fetch_memory(paste0("http://www.flymine.org/flymine/service/template/results?name=Gene_Alleles&constraint1=Gene&op1=LOOKUP&value1=",
+                                        paste0(gen,collapse=","),"&extra1=D.+melanogaster&format=json"))
+  json = jsonlite::fromJSON(rawToChar(req$content))
+  # Guardamos el apartado "results" en un dataframe
+  resultadosjson <- json[["results"]]
+  # Extraemos la columna con las enfermedades
+  if (length(resultadosjson) != 0) {
+    # Filtramos el nombre de las enfermedades
+    resjson = list(resultadosjson[,6])
+  }
+}
+FenotiposFlyresultados = lapply(ortologosFlyresultados, phenotypeflyfromgenes)
+str(FenotiposFlyresultados)
+```
+
+Por último, se procedió a evaluar de forma manual la prevalencia de términos relacionados con los síntomas observados en la revisión bibliográfica sobre la EP.
+
+## 1.6 Caracterización mediante la api de WormMine, que devuelve los términos términos WBPhenotype de C. elegans para el listado de genes conocidos
+
+Para el modelo C. elegans usaremos el mismo sistema que con D. melanogaster. Primero obtenemos los ortólogos:
+
+```{r}
+# Creamos una lista para almacenar los terminos MP de una lista de genes
+ortologoWorm = list()
+# Funcion para obtener los terminos MP
+ortologoWormfromgenes = function(gen){
+  req <- curl::curl_fetch_memory(paste0("http://www.humanmine.org/humanmine/service/template/results?name=Gene_Orth&constraint1=Gene&op1=LOOKUP&value1=",
+                                        paste0(gen,collapse=","),"&extra1=H.+sapiens&format=json"))
+  json = jsonlite::fromJSON(rawToChar(req$content))
+  # Guardamos el apartado "results" en un dataframe
+  resultadosjson <- json[["results"]]
+  # Extraemos la columna con los terminos MP
+  if (length(resultadosjson) != 0) {
+    # Filtramos por la especia D. melanogaster
+    resjson = resultadosjson[resultadosjson[,5]== "C. elegans",]
+      # Si hay mas de 1 gen ortologo de mosca:
+      if (is.matrix(resjson)){
+      # Extraemos los ortologos
+        ortologo = resjson[,3] 
+        } else { 
+      # Extraemos los ortologos
+        ortologoWorm = resjson[3] 
+    }
+  }
+}
+# Lista generica para iterar
+resultados1 = list()
+# Obtencion de las enfermedades
+ortologosWormresultados = queryfunctionfromlistgenes(parkgenes, ortologoWormfromgenes, resultados1)
+str(ortologosWormresultados)
+```
+
+Cuando ya tenemos la lista con los ortólogos en C. elegans obtenemos el fenotipo WBPhenotype:
+
+```{r}
+resjson = list()
+# Funcion para obtener las enfermedades
+phenotypeWormfromgenes = function(gen){
+  req <- curl::curl_fetch_memory(paste0("http://intermine.wormbase.org/tools/wormmine/service/query/results?query=%3Cquery+name%3D%22%22+model%3D%22genomic%22+view%3D%22Gene.primaryIdentifier+Gene.secondaryIdentifier+Gene.symbol+Gene.alleles.primaryIdentifier+Gene.alleles.symbol+Gene.alleles.phenotype.identifier+Gene.alleles.phenotype.name%22+longDescription%3D%22Return+a+list+of+all+allele+phenotypes+attributed+to+a+gene+or+a+list+of+genes%22+sortOrder%3D%22Gene.primaryIdentifier+asc%22%3E%3Cconstraint+path%3D%22Gene%22+op%3D%22LOOKUP%22+value%3D%22"
+                  ,paste0(gen,collapse=","),"%22+extraValue%3D%22%22%2F%3E%3C%2Fquery%3E&format=json"))
+  json = jsonlite::fromJSON(rawToChar(req$content))
+  # Guardamos el apartado "results" en un dataframe
+  resultadosjson <- json[["results"]]
+  # Extraemos la columna con las enfermedades
+  if (length(resultadosjson) != 0) {
+    # Filtramos el nombre de las enfermedades
+    resjson = list(resultadosjson[,6])
+  }
+}
+WormPheresultados = lapply(ortologosWormresultados, phenotypeWormfromgenes)
+str(WormPheresultados)
+```
+
+Por último, se procedió a evaluar de forma manual la prevalencia de términos relacionados con los síntomas observados en la revisión bibliográfica sobre la EP.
+
+
+
+
+
+
+
+

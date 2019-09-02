@@ -1,0 +1,2493 @@
+Disease	gene
+Amyotrophic lateral sclerosis/motor neuron disease	ALS2
+Amyotrophic lateral sclerosis/motor neuron disease	ANG
+Amyotrophic lateral sclerosis/motor neuron disease	AR
+Amyotrophic lateral sclerosis/motor neuron disease	DCTN1
+Amyotrophic lateral sclerosis/motor neuron disease	FIG4
+Amyotrophic lateral sclerosis/motor neuron disease	FUS
+Amyotrophic lateral sclerosis/motor neuron disease	HNRNPA1
+Amyotrophic lateral sclerosis/motor neuron disease	OPTN
+Amyotrophic lateral sclerosis/motor neuron disease	PFN1
+Amyotrophic lateral sclerosis/motor neuron disease	SETX
+Amyotrophic lateral sclerosis/motor neuron disease	SIGMAR1
+Amyotrophic lateral sclerosis/motor neuron disease	SLC52A2
+Amyotrophic lateral sclerosis/motor neuron disease	SLC52A3
+Amyotrophic lateral sclerosis/motor neuron disease	SOD1
+Amyotrophic lateral sclerosis/motor neuron disease	TARDBP
+Amyotrophic lateral sclerosis/motor neuron disease	TBK1
+Amyotrophic lateral sclerosis/motor neuron disease	UBQLN2
+Amyotrophic lateral sclerosis/motor neuron disease	VAPB
+Amyotrophic lateral sclerosis/motor neuron disease	VCP
+Arthrogryposis	MYMK
+Arthrogryposis	SELENON
+Arthrogryposis	ACTA1
+Arthrogryposis	ADAMTS10
+Arthrogryposis	ADGRG6
+Arthrogryposis	ANTXR2
+Arthrogryposis	ASCC1
+Arthrogryposis	ASXL1
+Arthrogryposis	B3GALNT2
+Arthrogryposis	B4GAT1
+Arthrogryposis	CHAT
+Arthrogryposis	CHRNA1
+Arthrogryposis	CHRNB1
+Arthrogryposis	CHRND
+Arthrogryposis	CHRNE
+Arthrogryposis	CHRNG
+Arthrogryposis	CHST14
+Arthrogryposis	CNTNAP1
+Arthrogryposis	COL12A1
+Arthrogryposis	COL6A1
+Arthrogryposis	COL6A2
+Arthrogryposis	COL6A3
+Arthrogryposis	COLQ
+Arthrogryposis	CRLF1
+Arthrogryposis	DAG1
+Arthrogryposis	DNM2
+Arthrogryposis	DOK7
+Arthrogryposis	ECEL1
+Arthrogryposis	ERCC6
+Arthrogryposis	ERCC8
+Arthrogryposis	EXOSC3
+Arthrogryposis	FAM20C
+Arthrogryposis	FBN2
+Arthrogryposis	FGFR2
+Arthrogryposis	FGFR3
+Arthrogryposis	FKBP10
+Arthrogryposis	FKRP
+Arthrogryposis	FKTN
+Arthrogryposis	FLNB
+Arthrogryposis	GBA
+Arthrogryposis	GBE1
+Arthrogryposis	GLDN
+Arthrogryposis	GLE1
+Arthrogryposis	GMPPB
+Arthrogryposis	HSPG2
+Arthrogryposis	IRF6
+Arthrogryposis	ISPD
+Arthrogryposis	KAT6B
+Arthrogryposis	KIAA1109
+Arthrogryposis	KLHL40
+Arthrogryposis	KLHL41
+Arthrogryposis	KLHL7
+Arthrogryposis	LAMA2
+Arthrogryposis	LARGE1
+Arthrogryposis	LGI4
+Arthrogryposis	LMOD3
+Arthrogryposis	MTM1
+Arthrogryposis	MUSK
+Arthrogryposis	MYBPC1
+Arthrogryposis	MYH2
+Arthrogryposis	MYH3
+Arthrogryposis	MYH7
+Arthrogryposis	MYH8
+Arthrogryposis	NALCN
+Arthrogryposis	NEB
+Arthrogryposis	PEX1
+Arthrogryposis	PEX10
+Arthrogryposis	PEX11B
+Arthrogryposis	PEX12
+Arthrogryposis	PEX13
+Arthrogryposis	PEX14
+Arthrogryposis	PEX16
+Arthrogryposis	PEX19
+Arthrogryposis	PEX2
+Arthrogryposis	PEX26
+Arthrogryposis	PEX3
+Arthrogryposis	PEX5
+Arthrogryposis	PEX6
+Arthrogryposis	PEX7
+Arthrogryposis	PFKM
+Arthrogryposis	PIEZO2
+Arthrogryposis	PLOD1
+Arthrogryposis	PLOD2
+Arthrogryposis	POMGNT1
+Arthrogryposis	POMGNT2
+Arthrogryposis	POMK
+Arthrogryposis	POMT1
+Arthrogryposis	POMT2
+Arthrogryposis	POR
+Arthrogryposis	PRG4
+Arthrogryposis	RAPSN
+Arthrogryposis	RIPK4
+Arthrogryposis	RYR1
+Arthrogryposis	SCARF2
+Arthrogryposis	SCN4A
+Arthrogryposis	SKI
+Arthrogryposis	SLC5A7
+Arthrogryposis	SMAD3
+Arthrogryposis	SMAD4
+Arthrogryposis	TGFB2
+Arthrogryposis	TGFB3
+Arthrogryposis	TGFBR1
+Arthrogryposis	TGFBR2
+Arthrogryposis	TMEM5
+Arthrogryposis	TNNI2
+Arthrogryposis	TNNT1
+Arthrogryposis	TNNT3
+Arthrogryposis	TPM2
+Arthrogryposis	TPM3
+Arthrogryposis	TRPV4
+Arthrogryposis	TSEN54
+Arthrogryposis	UBA1
+Arthrogryposis	VIPAS39
+Arthrogryposis	VPS33B
+Arthrogryposis	ZC4H2
+Arthrogryposis	ZMPSTE24
+Brain channelopathy	ADCY5
+Brain channelopathy	ATP1A2
+Brain channelopathy	ATP1A3
+Brain channelopathy	ATP7B
+Brain channelopathy	CACNA1A
+Brain channelopathy	CACNB4
+Brain channelopathy	GLRA1
+Brain channelopathy	GLRB
+Brain channelopathy	KCNA1
+Brain channelopathy	KCNQ2
+Brain channelopathy	KCNQ3
+Brain channelopathy	PNKD
+Brain channelopathy	PRRT2
+Brain channelopathy	SCN1A
+Brain channelopathy	SCN8A
+Brain channelopathy	SLC1A3
+Brain channelopathy	SLC2A1
+Brain channelopathy	SLC6A5
+Brain channelopathy	SPR
+Cerebellar hypoplasia	LARGE1
+Cerebellar hypoplasia	ADGRG1
+Cerebellar hypoplasia	AMPD2
+Cerebellar hypoplasia	B3GALNT2
+Cerebellar hypoplasia	CACNA1G
+Cerebellar hypoplasia	CASK
+Cerebellar hypoplasia	CHMP1A
+Cerebellar hypoplasia	CLP1
+Cerebellar hypoplasia	CWF19L1
+Cerebellar hypoplasia	DKC1
+Cerebellar hypoplasia	EXOSC3
+Cerebellar hypoplasia	FKRP
+Cerebellar hypoplasia	FKTN
+Cerebellar hypoplasia	GMPPB
+Cerebellar hypoplasia	ISPD
+Cerebellar hypoplasia	ITPR1
+Cerebellar hypoplasia	KCNC3
+Cerebellar hypoplasia	MACF1
+Cerebellar hypoplasia	OPHN1
+Cerebellar hypoplasia	POMGNT1
+Cerebellar hypoplasia	POMGNT2
+Cerebellar hypoplasia	POMT1
+Cerebellar hypoplasia	POMT2
+Cerebellar hypoplasia	PTF1A
+Cerebellar hypoplasia	RARS2
+Cerebellar hypoplasia	RELN
+Cerebellar hypoplasia	ROBO3
+Cerebellar hypoplasia	SEPSECS
+Cerebellar hypoplasia	SNX14
+Cerebellar hypoplasia	SPTBN2
+Cerebellar hypoplasia	TINF2
+Cerebellar hypoplasia	TMEM5
+Cerebellar hypoplasia	TOE1
+Cerebellar hypoplasia	TSEN2
+Cerebellar hypoplasia	TSEN34
+Cerebellar hypoplasia	TSEN54
+Cerebellar hypoplasia	TUBA1A
+Cerebellar hypoplasia	TUBB2B
+Cerebellar hypoplasia	TUBB3
+Cerebellar hypoplasia	VLDLR
+Cerebellar hypoplasia	VRK1
+Cerebellar hypoplasia	WDR81
+Cerebral vascular malformations	ADA2
+Cerebral vascular malformations	ACTA2
+Cerebral vascular malformations	ACVRL1
+Cerebral vascular malformations	ATR
+Cerebral vascular malformations	CCM2
+Cerebral vascular malformations	CEP152
+Cerebral vascular malformations	COL3A1
+Cerebral vascular malformations	ELN
+Cerebral vascular malformations	ENG
+Cerebral vascular malformations	FLVCR2
+Cerebral vascular malformations	GUCY1A3
+Cerebral vascular malformations	HBB
+Cerebral vascular malformations	JAG1
+Cerebral vascular malformations	KRIT1
+Cerebral vascular malformations	NF1
+Cerebral vascular malformations	NOTCH3
+Cerebral vascular malformations	PCNT
+Cerebral vascular malformations	PDCD10
+Cerebral vascular malformations	PKD1
+Cerebral vascular malformations	PKD2
+Cerebral vascular malformations	RASA1
+Cerebral vascular malformations	SAMHD1
+Cerebral vascular malformations	SLC2A10
+Cerebral vascular malformations	SMAD3
+Cerebral vascular malformations	SMAD4
+Cerebral vascular malformations	TGFB2
+Cerebral vascular malformations	TGFBR1
+Cerebral vascular malformations	TGFBR2
+Cerebral vascular malformations	THSD1
+Classical tuberous sclerosis	TSC1
+Classical tuberous sclerosis	TSC2
+Congenital muscular dystrophy	B3GALNT2
+Congenital muscular dystrophy	B4GAT1
+Congenital muscular dystrophy	CHKB
+Congenital muscular dystrophy	COL12A1
+Congenital muscular dystrophy	COL6A1
+Congenital muscular dystrophy	COL6A2
+Congenital muscular dystrophy	COL6A3
+Congenital muscular dystrophy	DAG1
+Congenital muscular dystrophy	DOLK
+Congenital muscular dystrophy	DPM2
+Congenital muscular dystrophy	FKRP
+Congenital muscular dystrophy	FKTN
+Congenital muscular dystrophy	GMPPB
+Congenital muscular dystrophy	INPP5K
+Congenital muscular dystrophy	ISPD
+Congenital muscular dystrophy	ITGA7
+Congenital muscular dystrophy	LAMA2
+Congenital muscular dystrophy	LARGE1
+Congenital muscular dystrophy	MICU1
+Congenital muscular dystrophy	MYMK
+Congenital muscular dystrophy	POMGNT1
+Congenital muscular dystrophy	POMGNT2
+Congenital muscular dystrophy	POMK
+Congenital muscular dystrophy	POMT1
+Congenital muscular dystrophy	POMT2
+Congenital muscular dystrophy	SELENON
+Congenital muscular dystrophy	TMEM5
+Congenital muscular dystrophy	DMD
+Congenital muscular dystrophy	LMNA
+Congenital muscular dystrophy	RYR1
+Congenital muscular dystrophy	SYNE1
+Congenital myaesthenic syndrome	AGRN
+Congenital myaesthenic syndrome	CHAT
+Congenital myaesthenic syndrome	CHRNA1
+Congenital myaesthenic syndrome	CHRNB1
+Congenital myaesthenic syndrome	CHRND
+Congenital myaesthenic syndrome	CHRNE
+Congenital myaesthenic syndrome	CHRNG
+Congenital myaesthenic syndrome	COL13A1
+Congenital myaesthenic syndrome	COLQ
+Congenital myaesthenic syndrome	DOK7
+Congenital myaesthenic syndrome	DPAGT1
+Congenital myaesthenic syndrome	GFPT1
+Congenital myaesthenic syndrome	GMPPB
+Congenital myaesthenic syndrome	LRP4
+Congenital myaesthenic syndrome	MUSK
+Congenital myaesthenic syndrome	PLEC
+Congenital myaesthenic syndrome	RAPSN
+Congenital myaesthenic syndrome	SLC18A3
+Congenital myaesthenic syndrome	SLC5A7
+Congenital myaesthenic syndrome	SCN4A
+Congenital myopathy	ACTA1
+Congenital myopathy	BIN1
+Congenital myopathy	CACNA1S
+Congenital myopathy	CFL2
+Congenital myopathy	COL12A1
+Congenital myopathy	COL6A1
+Congenital myopathy	COL6A2
+Congenital myopathy	COL6A3
+Congenital myopathy	DNM2
+Congenital myopathy	EPG5
+Congenital myopathy	KBTBD13
+Congenital myopathy	KLHL40
+Congenital myopathy	KLHL41
+Congenital myopathy	LMOD3
+Congenital myopathy	MAP3K20
+Congenital myopathy	MEGF10
+Congenital myopathy	MTM1
+Congenital myopathy	MYH2
+Congenital myopathy	MYH3
+Congenital myopathy	MYH7
+Congenital myopathy	MYH8
+Congenital myopathy	MYMK
+Congenital myopathy	MYO18B
+Congenital myopathy	NEB
+Congenital myopathy	ORAI1
+Congenital myopathy	RYR1
+Congenital myopathy	SCN4A
+Congenital myopathy	SELENON
+Congenital myopathy	SPEG
+Congenital myopathy	STAC3
+Congenital myopathy	STIM1
+Congenital myopathy	TNNT1
+Congenital myopathy	TPM2
+Congenital myopathy	TPM3
+Congenital myopathy	TTN
+Congenital myopathy	VMA21
+Congenital myopathy	FKBP14
+Congenital myopathy	HTRA2
+Congenital myopathy	LGI4
+Congenital myopathy	LMNA
+Congenital myopathy	MICU1
+Congenital myopathy	SLC25A4
+Distal myopathies	ACTA1
+Distal myopathies	ANO5
+Distal myopathies	BAG3
+Distal myopathies	CNBP
+Distal myopathies	CRYAB
+Distal myopathies	DES
+Distal myopathies	DNAJB6
+Distal myopathies	DNM2
+Distal myopathies	DYSF
+Distal myopathies	FHL1
+Distal myopathies	FLNC
+Distal myopathies	GNE
+Distal myopathies	HSPB1
+Distal myopathies	HSPB8
+Distal myopathies	LDB3
+Distal myopathies	MATR3
+Distal myopathies	MYH7
+Distal myopathies	MYOT
+Distal myopathies	NEB
+Distal myopathies	SQSTM1
+Distal myopathies	TIA1
+Distal myopathies	TTN
+Distal myopathies	VCP
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	APP
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	CHMP2B
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	CSF1R
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	DNAJC5
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	DNMT1
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	EPM2A
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	GRN
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	ITM2B
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	MAPT
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	NHLRC1
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	NOTCH3
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	PRNP
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	PSEN1
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	PSEN2
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	TARDBP
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	TBK1
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	TYROBP
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	UBQLN2
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)	VCP
+Early onset dystonia	PRKN
+Early onset dystonia	ADAR
+Early onset dystonia	ADCY5
+Early onset dystonia	ANO3
+Early onset dystonia	APTX
+Early onset dystonia	ATM
+Early onset dystonia	ATP13A2
+Early onset dystonia	ATP1A3
+Early onset dystonia	ATP7B
+Early onset dystonia	BCAP31
+Early onset dystonia	C19orf12
+Early onset dystonia	CHMP2B
+Early onset dystonia	COASY
+Early onset dystonia	CP
+Early onset dystonia	CSTB
+Early onset dystonia	DCAF17
+Early onset dystonia	DLAT
+Early onset dystonia	FA2H
+Early onset dystonia	FBXO7
+Early onset dystonia	FTL
+Early onset dystonia	GCH1
+Early onset dystonia	GNAO1
+Early onset dystonia	HPCA
+Early onset dystonia	HTRA2
+Early onset dystonia	KMT2B
+Early onset dystonia	MECR
+Early onset dystonia	NKX6-2
+Early onset dystonia	PANK2
+Early onset dystonia	PINK1
+Early onset dystonia	PLA2G6
+Early onset dystonia	PNKD
+Early onset dystonia	PRKRA
+Early onset dystonia	PRRT2
+Early onset dystonia	SERAC1
+Early onset dystonia	SGCE
+Early onset dystonia	SLC2A1
+Early onset dystonia	SLC30A10
+Early onset dystonia	SLC6A3
+Early onset dystonia	SPR
+Early onset dystonia	SYNJ1
+Early onset dystonia	TH
+Early onset dystonia	THAP1
+Early onset dystonia	TOR1A
+Early onset dystonia	TUBB4A
+Early onset dystonia	VAC14
+Early onset dystonia	VPS13A
+Early onset dystonia	WDR45
+Early onset dystonia	WDR73
+Early onset dystonia	YY1
+Genetic epilepsy syndromes	AARS
+Genetic epilepsy syndromes	ADSL
+Genetic epilepsy syndromes	ALDH7A1
+Genetic epilepsy syndromes	ALG11
+Genetic epilepsy syndromes	ALG13
+Genetic epilepsy syndromes	ARHGEF9
+Genetic epilepsy syndromes	ARX
+Genetic epilepsy syndromes	ATP1A3
+Genetic epilepsy syndromes	ATP6V0A2
+Genetic epilepsy syndromes	ATRX
+Genetic epilepsy syndromes	BRAT1
+Genetic epilepsy syndromes	BSCL2
+Genetic epilepsy syndromes	CACNA1D
+Genetic epilepsy syndromes	CDKL5
+Genetic epilepsy syndromes	CHD2
+Genetic epilepsy syndromes	CHRNA2
+Genetic epilepsy syndromes	CHRNA4
+Genetic epilepsy syndromes	CHRNB2
+Genetic epilepsy syndromes	CIC
+Genetic epilepsy syndromes	CLN8
+Genetic epilepsy syndromes	CLTC
+Genetic epilepsy syndromes	CNKSR2
+Genetic epilepsy syndromes	CNTNAP2
+Genetic epilepsy syndromes	CPA6
+Genetic epilepsy syndromes	CYFIP2
+Genetic epilepsy syndromes	DEPDC5
+Genetic epilepsy syndromes	DIAPH1
+Genetic epilepsy syndromes	DNM1
+Genetic epilepsy syndromes	DOCK7
+Genetic epilepsy syndromes	DPYD
+Genetic epilepsy syndromes	DYRK1A
+Genetic epilepsy syndromes	EHMT1
+Genetic epilepsy syndromes	EML1
+Genetic epilepsy syndromes	EPG5
+Genetic epilepsy syndromes	EPM2A
+Genetic epilepsy syndromes	FOXG1
+Genetic epilepsy syndromes	GABBR2
+Genetic epilepsy syndromes	GABRA1
+Genetic epilepsy syndromes	GABRB3
+Genetic epilepsy syndromes	GABRG2
+Genetic epilepsy syndromes	GLYCTK
+Genetic epilepsy syndromes	GNAO1
+Genetic epilepsy syndromes	GPAA1
+Genetic epilepsy syndromes	GRIN1
+Genetic epilepsy syndromes	GRIN2A
+Genetic epilepsy syndromes	GRIN2B
+Genetic epilepsy syndromes	GSS
+Genetic epilepsy syndromes	HCN1
+Genetic epilepsy syndromes	HECW2
+Genetic epilepsy syndromes	HMGCL
+Genetic epilepsy syndromes	HNRNPH2
+Genetic epilepsy syndromes	HNRNPU
+Genetic epilepsy syndromes	HTRA2
+Genetic epilepsy syndromes	IDH2
+Genetic epilepsy syndromes	IER3IP1
+Genetic epilepsy syndromes	IQSEC2
+Genetic epilepsy syndromes	ITPA
+Genetic epilepsy syndromes	KCNA2
+Genetic epilepsy syndromes	KCNB1
+Genetic epilepsy syndromes	KCNC1
+Genetic epilepsy syndromes	KCNJ10
+Genetic epilepsy syndromes	KCNQ2
+Genetic epilepsy syndromes	KCNQ3
+Genetic epilepsy syndromes	KCNT1
+Genetic epilepsy syndromes	KCTD7
+Genetic epilepsy syndromes	KIF1BP
+Genetic epilepsy syndromes	LGI1
+Genetic epilepsy syndromes	MBD5
+Genetic epilepsy syndromes	MBOAT7
+Genetic epilepsy syndromes	MDH2
+Genetic epilepsy syndromes	MECP2
+Genetic epilepsy syndromes	MEF2C
+Genetic epilepsy syndromes	MFF
+Genetic epilepsy syndromes	MOGS
+Genetic epilepsy syndromes	MTOR
+Genetic epilepsy syndromes	NACC1
+Genetic epilepsy syndromes	NEXMIF
+Genetic epilepsy syndromes	PCDH19
+Genetic epilepsy syndromes	PIGA
+Genetic epilepsy syndromes	PIGN
+Genetic epilepsy syndromes	PIGT
+Genetic epilepsy syndromes	PLCB1
+Genetic epilepsy syndromes	PLPBP
+Genetic epilepsy syndromes	PNKP
+Genetic epilepsy syndromes	PNPO
+Genetic epilepsy syndromes	POLG
+Genetic epilepsy syndromes	PRODH
+Genetic epilepsy syndromes	PRRT2
+Genetic epilepsy syndromes	PURA
+Genetic epilepsy syndromes	QARS
+Genetic epilepsy syndromes	RANBP2
+Genetic epilepsy syndromes	SCARB2
+Genetic epilepsy syndromes	SCN1A
+Genetic epilepsy syndromes	SCN1B
+Genetic epilepsy syndromes	SCN2A
+Genetic epilepsy syndromes	SCN8A
+Genetic epilepsy syndromes	SCN9A
+Genetic epilepsy syndromes	SETD5
+Genetic epilepsy syndromes	SIK1
+Genetic epilepsy syndromes	SLC12A5
+Genetic epilepsy syndromes	SLC13A5
+Genetic epilepsy syndromes	SLC16A2
+Genetic epilepsy syndromes	SLC1A2
+Genetic epilepsy syndromes	SLC25A1
+Genetic epilepsy syndromes	SLC25A22
+Genetic epilepsy syndromes	SLC2A1
+Genetic epilepsy syndromes	SLC35A2
+Genetic epilepsy syndromes	SLC6A1
+Genetic epilepsy syndromes	SLC6A19
+Genetic epilepsy syndromes	SLC9A6
+Genetic epilepsy syndromes	SPTAN1
+Genetic epilepsy syndromes	STRADA
+Genetic epilepsy syndromes	STX1B
+Genetic epilepsy syndromes	STXBP1
+Genetic epilepsy syndromes	SUOX
+Genetic epilepsy syndromes	SYNGAP1
+Genetic epilepsy syndromes	SYNJ1
+Genetic epilepsy syndromes	SZT2
+Genetic epilepsy syndromes	TBC1D24
+Genetic epilepsy syndromes	TCF4
+Genetic epilepsy syndromes	TPP1
+Genetic epilepsy syndromes	TRAK1
+Genetic epilepsy syndromes	TRPM6
+Genetic epilepsy syndromes	UBE2A
+Genetic epilepsy syndromes	UBE3A
+Genetic epilepsy syndromes	WDR45
+Genetic epilepsy syndromes	WDR45B
+Genetic epilepsy syndromes	WWOX
+Genetic epilepsy syndromes	ZEB2
+Genetic epilepsy syndromes	ABAT
+Genetic epilepsy syndromes	ACOX1
+Genetic epilepsy syndromes	ADAR
+Genetic epilepsy syndromes	ADGRG1
+Genetic epilepsy syndromes	ADPRHL2
+Genetic epilepsy syndromes	AIMP1
+Genetic epilepsy syndromes	AKT1
+Genetic epilepsy syndromes	AKT3
+Genetic epilepsy syndromes	ALDH5A1
+Genetic epilepsy syndromes	ALG1
+Genetic epilepsy syndromes	ALG3
+Genetic epilepsy syndromes	ALG6
+Genetic epilepsy syndromes	ALG8
+Genetic epilepsy syndromes	ALG9
+Genetic epilepsy syndromes	ALPL
+Genetic epilepsy syndromes	AMPD2
+Genetic epilepsy syndromes	AMT
+Genetic epilepsy syndromes	AP3B2
+Genetic epilepsy syndromes	ARFGEF2
+Genetic epilepsy syndromes	ARG1
+Genetic epilepsy syndromes	ARID1B
+Genetic epilepsy syndromes	ARV1
+Genetic epilepsy syndromes	ASPA
+Genetic epilepsy syndromes	ATP1A1
+Genetic epilepsy syndromes	ATP6V1A
+Genetic epilepsy syndromes	ATP7A
+Genetic epilepsy syndromes	BCKDHA
+Genetic epilepsy syndromes	BCKDHB
+Genetic epilepsy syndromes	BCS1L
+Genetic epilepsy syndromes	BOLA3
+Genetic epilepsy syndromes	BRAF
+Genetic epilepsy syndromes	BTD
+Genetic epilepsy syndromes	C12orf57
+Genetic epilepsy syndromes	CACNA1A
+Genetic epilepsy syndromes	CACNA1E
+Genetic epilepsy syndromes	CACNA1G
+Genetic epilepsy syndromes	CAD
+Genetic epilepsy syndromes	CASK
+Genetic epilepsy syndromes	CC2D2A
+Genetic epilepsy syndromes	CLCN4
+Genetic epilepsy syndromes	CLN3
+Genetic epilepsy syndromes	CNNM2
+Genetic epilepsy syndromes	COG7
+Genetic epilepsy syndromes	COL18A1
+Genetic epilepsy syndromes	COL4A1
+Genetic epilepsy syndromes	COL4A2
+Genetic epilepsy syndromes	COQ2
+Genetic epilepsy syndromes	COQ4
+Genetic epilepsy syndromes	COQ9
+Genetic epilepsy syndromes	CREBBP
+Genetic epilepsy syndromes	CSTB
+Genetic epilepsy syndromes	CTNNA2
+Genetic epilepsy syndromes	CTSD
+Genetic epilepsy syndromes	D2HGDH
+Genetic epilepsy syndromes	DCX
+Genetic epilepsy syndromes	DDX3X
+Genetic epilepsy syndromes	DEAF1
+Genetic epilepsy syndromes	DENND5A
+Genetic epilepsy syndromes	DHCR7
+Genetic epilepsy syndromes	DHDDS
+Genetic epilepsy syndromes	DHX30
+Genetic epilepsy syndromes	DNM1L
+Genetic epilepsy syndromes	DPAGT1
+Genetic epilepsy syndromes	DPM1
+Genetic epilepsy syndromes	DYNC1H1
+Genetic epilepsy syndromes	EARS2
+Genetic epilepsy syndromes	EEF1A2
+Genetic epilepsy syndromes	EFTUD2
+Genetic epilepsy syndromes	EIF2B2
+Genetic epilepsy syndromes	EIF2B4
+Genetic epilepsy syndromes	EIF2B5
+Genetic epilepsy syndromes	EIF2S3
+Genetic epilepsy syndromes	EIF3F
+Genetic epilepsy syndromes	EMX2
+Genetic epilepsy syndromes	ETHE1
+Genetic epilepsy syndromes	EXOSC3
+Genetic epilepsy syndromes	FAR1
+Genetic epilepsy syndromes	FARS2
+Genetic epilepsy syndromes	FBXL4
+Genetic epilepsy syndromes	FBXO11
+Genetic epilepsy syndromes	FGF12
+Genetic epilepsy syndromes	FGFR3
+Genetic epilepsy syndromes	FH
+Genetic epilepsy syndromes	FKTN
+Genetic epilepsy syndromes	FLNA
+Genetic epilepsy syndromes	FOLR1
+Genetic epilepsy syndromes	FRRS1L
+Genetic epilepsy syndromes	FUCA1
+Genetic epilepsy syndromes	FUT8
+Genetic epilepsy syndromes	GABRB2
+Genetic epilepsy syndromes	GALC
+Genetic epilepsy syndromes	GAMT
+Genetic epilepsy syndromes	GBA
+Genetic epilepsy syndromes	GCH1
+Genetic epilepsy syndromes	GFAP
+Genetic epilepsy syndromes	GFM1
+Genetic epilepsy syndromes	GLB1
+Genetic epilepsy syndromes	GLDC
+Genetic epilepsy syndromes	GLUD1
+Genetic epilepsy syndromes	GLUL
+Genetic epilepsy syndromes	GM2A
+Genetic epilepsy syndromes	GNAQ
+Genetic epilepsy syndromes	GNB1
+Genetic epilepsy syndromes	GNB5
+Genetic epilepsy syndromes	GOSR2
+Genetic epilepsy syndromes	GPHN
+Genetic epilepsy syndromes	GRIA4
+Genetic epilepsy syndromes	GRIN2D
+Genetic epilepsy syndromes	GTPBP2
+Genetic epilepsy syndromes	HACE1
+Genetic epilepsy syndromes	HAX1
+Genetic epilepsy syndromes	HCFC1
+Genetic epilepsy syndromes	HCN2
+Genetic epilepsy syndromes	HEPACAM
+Genetic epilepsy syndromes	HEXA
+Genetic epilepsy syndromes	HLCS
+Genetic epilepsy syndromes	HRAS
+Genetic epilepsy syndromes	HSD17B4
+Genetic epilepsy syndromes	IFIH1
+Genetic epilepsy syndromes	IKBKG
+Genetic epilepsy syndromes	IRF2BPL
+Genetic epilepsy syndromes	KARS
+Genetic epilepsy syndromes	KCNA1
+Genetic epilepsy syndromes	KCNJ11
+Genetic epilepsy syndromes	KCNK4
+Genetic epilepsy syndromes	KCNQ5
+Genetic epilepsy syndromes	KCTD3
+Genetic epilepsy syndromes	KIF1A
+Genetic epilepsy syndromes	KIF2A
+Genetic epilepsy syndromes	KIF5C
+Genetic epilepsy syndromes	KRAS
+Genetic epilepsy syndromes	LIAS
+Genetic epilepsy syndromes	LYST
+Genetic epilepsy syndromes	MACF1
+Genetic epilepsy syndromes	MAF
+Genetic epilepsy syndromes	MAGI2
+Genetic epilepsy syndromes	MAP2K1
+Genetic epilepsy syndromes	MAP2K2
+Genetic epilepsy syndromes	MED12
+Genetic epilepsy syndromes	MFSD8
+Genetic epilepsy syndromes	MLC1
+Genetic epilepsy syndromes	MMACHC
+Genetic epilepsy syndromes	MMADHC
+Genetic epilepsy syndromes	MOCS1
+Genetic epilepsy syndromes	MOCS2
+Genetic epilepsy syndromes	MPDU1
+Genetic epilepsy syndromes	MTHFR
+Genetic epilepsy syndromes	MTR
+Genetic epilepsy syndromes	NAGA
+Genetic epilepsy syndromes	NARS2
+Genetic epilepsy syndromes	NBEA
+Genetic epilepsy syndromes	NDE1
+Genetic epilepsy syndromes	NDUFA1
+Genetic epilepsy syndromes	NDUFA10
+Genetic epilepsy syndromes	NDUFAF2
+Genetic epilepsy syndromes	NDUFAF5
+Genetic epilepsy syndromes	NDUFS4
+Genetic epilepsy syndromes	NDUFS8
+Genetic epilepsy syndromes	NDUFV1
+Genetic epilepsy syndromes	NGLY1
+Genetic epilepsy syndromes	NHLRC1
+Genetic epilepsy syndromes	NPRL3
+Genetic epilepsy syndromes	NRXN1
+Genetic epilepsy syndromes	NSD1
+Genetic epilepsy syndromes	NSDHL
+Genetic epilepsy syndromes	NTRK2
+Genetic epilepsy syndromes	OCLN
+Genetic epilepsy syndromes	OPHN1
+Genetic epilepsy syndromes	OTUD6B
+Genetic epilepsy syndromes	PACS1
+Genetic epilepsy syndromes	PACS2
+Genetic epilepsy syndromes	PAFAH1B1
+Genetic epilepsy syndromes	PAH
+Genetic epilepsy syndromes	PCCA
+Genetic epilepsy syndromes	PCCB
+Genetic epilepsy syndromes	PCDH12
+Genetic epilepsy syndromes	PDHA1
+Genetic epilepsy syndromes	PDHX
+Genetic epilepsy syndromes	PET100
+Genetic epilepsy syndromes	PEX1
+Genetic epilepsy syndromes	PEX10
+Genetic epilepsy syndromes	PEX12
+Genetic epilepsy syndromes	PEX13
+Genetic epilepsy syndromes	PEX19
+Genetic epilepsy syndromes	PEX2
+Genetic epilepsy syndromes	PEX3
+Genetic epilepsy syndromes	PEX6
+Genetic epilepsy syndromes	PEX7
+Genetic epilepsy syndromes	PHACTR1
+Genetic epilepsy syndromes	PHGDH
+Genetic epilepsy syndromes	PIGG
+Genetic epilepsy syndromes	PIGO
+Genetic epilepsy syndromes	PIGW
+Genetic epilepsy syndromes	PIK3CA
+Genetic epilepsy syndromes	PIK3R2
+Genetic epilepsy syndromes	PLAA
+Genetic epilepsy syndromes	PMM2
+Genetic epilepsy syndromes	POMGNT1
+Genetic epilepsy syndromes	POMT1
+Genetic epilepsy syndromes	PPP3CA
+Genetic epilepsy syndromes	PPT1
+Genetic epilepsy syndromes	PRICKLE1
+Genetic epilepsy syndromes	PRMT7
+Genetic epilepsy syndromes	PSAP
+Genetic epilepsy syndromes	PTEN
+Genetic epilepsy syndromes	PTPN23
+Genetic epilepsy syndromes	PTS
+Genetic epilepsy syndromes	QDPR
+Genetic epilepsy syndromes	RAB11B
+Genetic epilepsy syndromes	RAB18
+Genetic epilepsy syndromes	RALA
+Genetic epilepsy syndromes	RARS2
+Genetic epilepsy syndromes	RELN
+Genetic epilepsy syndromes	RFT1
+Genetic epilepsy syndromes	RHOBTB2
+Genetic epilepsy syndromes	RMND1
+Genetic epilepsy syndromes	RNASEH2A
+Genetic epilepsy syndromes	RNASEH2B
+Genetic epilepsy syndromes	RNASEH2C
+Genetic epilepsy syndromes	RNASET2
+Genetic epilepsy syndromes	ROGDI
+Genetic epilepsy syndromes	RORA
+Genetic epilepsy syndromes	RORB
+Genetic epilepsy syndromes	RTN4IP1
+Genetic epilepsy syndromes	RTTN
+Genetic epilepsy syndromes	SAMHD1
+Genetic epilepsy syndromes	SCN3A
+Genetic epilepsy syndromes	SCO1
+Genetic epilepsy syndromes	SCO2
+Genetic epilepsy syndromes	SEPSECS
+Genetic epilepsy syndromes	SETBP1
+Genetic epilepsy syndromes	SLC1A4
+Genetic epilepsy syndromes	SLC25A12
+Genetic epilepsy syndromes	SLC35A1
+Genetic epilepsy syndromes	SLC6A8
+Genetic epilepsy syndromes	SMARCA2
+Genetic epilepsy syndromes	SMARCC2
+Genetic epilepsy syndromes	SMS
+Genetic epilepsy syndromes	SNORD118
+Genetic epilepsy syndromes	ST3GAL5
+Genetic epilepsy syndromes	STAG1
+Genetic epilepsy syndromes	STAMBP
+Genetic epilepsy syndromes	SUCLA2
+Genetic epilepsy syndromes	SURF1
+Genetic epilepsy syndromes	SYN1
+Genetic epilepsy syndromes	TANGO2
+Genetic epilepsy syndromes	TBCD
+Genetic epilepsy syndromes	TBCK
+Genetic epilepsy syndromes	TBL1XR1
+Genetic epilepsy syndromes	TMEM70
+Genetic epilepsy syndromes	TREX1
+Genetic epilepsy syndromes	TRIM8
+Genetic epilepsy syndromes	TSC1
+Genetic epilepsy syndromes	TSC2
+Genetic epilepsy syndromes	TSEN2
+Genetic epilepsy syndromes	TSEN54
+Genetic epilepsy syndromes	TUBA1A
+Genetic epilepsy syndromes	TUBB2A
+Genetic epilepsy syndromes	TUBB2B
+Genetic epilepsy syndromes	TUBB3
+Genetic epilepsy syndromes	TUBB4A
+Genetic epilepsy syndromes	TUBG1
+Genetic epilepsy syndromes	UBA5
+Genetic epilepsy syndromes	UFM1
+Genetic epilepsy syndromes	UNC80
+Genetic epilepsy syndromes	VARS
+Genetic epilepsy syndromes	WASF1
+Genetic epilepsy syndromes	WDR62
+Genetic epilepsy syndromes	WDR73
+Genetic epilepsy syndromes	YWHAG
+Genetic epilepsy syndromes	ZBTB18
+Hereditary ataxia	COQ8A
+Hereditary ataxia	MRE11
+Hereditary ataxia	TWNK
+Hereditary ataxia	AAAS
+Hereditary ataxia	ABCB7
+Hereditary ataxia	ABHD12
+Hereditary ataxia	AFG3L2
+Hereditary ataxia	AMPD2
+Hereditary ataxia	ANO10
+Hereditary ataxia	AP1S2
+Hereditary ataxia	APTX
+Hereditary ataxia	ARSA
+Hereditary ataxia	ATCAY
+Hereditary ataxia	ATM
+Hereditary ataxia	ATP1A3
+Hereditary ataxia	CA8
+Hereditary ataxia	CACNA1A
+Hereditary ataxia	CACNA1G
+Hereditary ataxia	CAMTA1
+Hereditary ataxia	CASK
+Hereditary ataxia	CHMP1A
+Hereditary ataxia	CLCN2
+Hereditary ataxia	CLN6
+Hereditary ataxia	COX20
+Hereditary ataxia	CP
+Hereditary ataxia	CWF19L1
+Hereditary ataxia	CYP27A1
+Hereditary ataxia	CYP2U1
+Hereditary ataxia	DARS2
+Hereditary ataxia	DDHD2
+Hereditary ataxia	DNAJC19
+Hereditary ataxia	DNAJC5
+Hereditary ataxia	DNMT1
+Hereditary ataxia	EIF2B1
+Hereditary ataxia	EIF2B2
+Hereditary ataxia	EIF2B3
+Hereditary ataxia	EIF2B4
+Hereditary ataxia	EIF2B5
+Hereditary ataxia	ELOVL4
+Hereditary ataxia	EPM2A
+Hereditary ataxia	EXOSC3
+Hereditary ataxia	FGF14
+Hereditary ataxia	FLVCR1
+Hereditary ataxia	FMR1
+Hereditary ataxia	FOLR1
+Hereditary ataxia	FXN
+Hereditary ataxia	GBA2
+Hereditary ataxia	GFAP
+Hereditary ataxia	GJC2
+Hereditary ataxia	GOSR2
+Hereditary ataxia	GPAA1
+Hereditary ataxia	GRID2
+Hereditary ataxia	GRM1
+Hereditary ataxia	HEXA
+Hereditary ataxia	HEXB
+Hereditary ataxia	ITPR1
+Hereditary ataxia	KCNA1
+Hereditary ataxia	KCNC3
+Hereditary ataxia	KCND3
+Hereditary ataxia	KCNJ10
+Hereditary ataxia	KIF1C
+Hereditary ataxia	MARS2
+Hereditary ataxia	MMACHC
+Hereditary ataxia	MT-ATP6
+Hereditary ataxia	MTTP
+Hereditary ataxia	NHLRC1
+Hereditary ataxia	NKX6-2
+Hereditary ataxia	NPC1
+Hereditary ataxia	NPC2
+Hereditary ataxia	OPA3
+Hereditary ataxia	OPHN1
+Hereditary ataxia	PAX6
+Hereditary ataxia	PDYN
+Hereditary ataxia	PEX16
+Hereditary ataxia	PLA2G6
+Hereditary ataxia	PMPCA
+Hereditary ataxia	PNKP
+Hereditary ataxia	PNPLA6
+Hereditary ataxia	POLG
+Hereditary ataxia	POLR3A
+Hereditary ataxia	PRKCG
+Hereditary ataxia	PRNP
+Hereditary ataxia	PRRT2
+Hereditary ataxia	RARS2
+Hereditary ataxia	RNF170
+Hereditary ataxia	RNF216
+Hereditary ataxia	SACS
+Hereditary ataxia	SAR1B
+Hereditary ataxia	SEPSECS
+Hereditary ataxia	SETX
+Hereditary ataxia	SIL1
+Hereditary ataxia	SLC1A3
+Hereditary ataxia	SLC2A1
+Hereditary ataxia	SLC9A6
+Hereditary ataxia	SNX14
+Hereditary ataxia	SPG7
+Hereditary ataxia	SPTBN2
+Hereditary ataxia	SRD5A3
+Hereditary ataxia	STUB1
+Hereditary ataxia	SYNE1
+Hereditary ataxia	TGM6
+Hereditary ataxia	TMEM240
+Hereditary ataxia	TPP1
+Hereditary ataxia	TSEN2
+Hereditary ataxia	TSEN54
+Hereditary ataxia	TTBK2
+Hereditary ataxia	TTC19
+Hereditary ataxia	TTPA
+Hereditary ataxia	TUBB4A
+Hereditary ataxia	VLDLR
+Hereditary ataxia	VPS13D
+Hereditary ataxia	VRK1
+Hereditary ataxia	WDR73
+Hereditary ataxia	WDR81
+Hereditary ataxia	WFS1
+Hereditary ataxia	WWOX
+Hereditary neuropathy	AARS
+Hereditary neuropathy	AIFM1
+Hereditary neuropathy	APTX
+Hereditary neuropathy	ARHGEF10
+Hereditary neuropathy	ATL1
+Hereditary neuropathy	ATL3
+Hereditary neuropathy	ATM
+Hereditary neuropathy	ATP7A
+Hereditary neuropathy	BICD2
+Hereditary neuropathy	BSCL2
+Hereditary neuropathy	C12orf65
+Hereditary neuropathy	CHCHD10
+Hereditary neuropathy	COX6A1
+Hereditary neuropathy	DNM2
+Hereditary neuropathy	DNMT1
+Hereditary neuropathy	DYNC1H1
+Hereditary neuropathy	EGR2
+Hereditary neuropathy	ELP1
+Hereditary neuropathy	FBLN5
+Hereditary neuropathy	FGD4
+Hereditary neuropathy	FIG4
+Hereditary neuropathy	GAN
+Hereditary neuropathy	GARS
+Hereditary neuropathy	GDAP1
+Hereditary neuropathy	GJB1
+Hereditary neuropathy	GLA
+Hereditary neuropathy	HARS
+Hereditary neuropathy	HINT1
+Hereditary neuropathy	HK1
+Hereditary neuropathy	HSPB1
+Hereditary neuropathy	HSPB8
+Hereditary neuropathy	IGHMBP2
+Hereditary neuropathy	INF2
+Hereditary neuropathy	KIF1A
+Hereditary neuropathy	KIF5A
+Hereditary neuropathy	LITAF
+Hereditary neuropathy	LMNA
+Hereditary neuropathy	LRSAM1
+Hereditary neuropathy	MFN2
+Hereditary neuropathy	MME
+Hereditary neuropathy	MORC2
+Hereditary neuropathy	MPV17
+Hereditary neuropathy	MPZ
+Hereditary neuropathy	MT-ATP6
+Hereditary neuropathy	MTMR2
+Hereditary neuropathy	NDRG1
+Hereditary neuropathy	NEFL
+Hereditary neuropathy	NGF
+Hereditary neuropathy	NTRK1
+Hereditary neuropathy	PDHA1
+Hereditary neuropathy	PEX7
+Hereditary neuropathy	PHYH
+Hereditary neuropathy	PLEKHG5
+Hereditary neuropathy	PMP22
+Hereditary neuropathy	POLG
+Hereditary neuropathy	PRDM12
+Hereditary neuropathy	PRNP
+Hereditary neuropathy	PRPS1
+Hereditary neuropathy	PRX
+Hereditary neuropathy	RAB7A
+Hereditary neuropathy	REEP1
+Hereditary neuropathy	RETREG1
+Hereditary neuropathy	SACS
+Hereditary neuropathy	SBF2
+Hereditary neuropathy	SCN11A
+Hereditary neuropathy	SCN9A
+Hereditary neuropathy	SEPT9
+Hereditary neuropathy	SETX
+Hereditary neuropathy	SH3TC2
+Hereditary neuropathy	SIGMAR1
+Hereditary neuropathy	SLC12A6
+Hereditary neuropathy	SLC52A2
+Hereditary neuropathy	SLC52A3
+Hereditary neuropathy	SMN1
+Hereditary neuropathy	SPAST
+Hereditary neuropathy	SPG11
+Hereditary neuropathy	SPTLC1
+Hereditary neuropathy	SPTLC2
+Hereditary neuropathy	TFG
+Hereditary neuropathy	TRPV4
+Hereditary neuropathy	TTR
+Hereditary neuropathy	TUBB3
+Hereditary neuropathy	TYMP
+Hereditary neuropathy	VCP
+Hereditary neuropathy	WNK1
+Hereditary neuropathy	YARS
+Hereditary spastic paraplegia	SPART
+Hereditary spastic paraplegia	WASHC5
+Hereditary spastic paraplegia	ABCD1
+Hereditary spastic paraplegia	ADAR
+Hereditary spastic paraplegia	AFG3L2
+Hereditary spastic paraplegia	AIMP1
+Hereditary spastic paraplegia	ALDH18A1
+Hereditary spastic paraplegia	ALS2
+Hereditary spastic paraplegia	AP4B1
+Hereditary spastic paraplegia	AP4E1
+Hereditary spastic paraplegia	AP4M1
+Hereditary spastic paraplegia	AP4S1
+Hereditary spastic paraplegia	ARG1
+Hereditary spastic paraplegia	ATL1
+Hereditary spastic paraplegia	ATP13A2
+Hereditary spastic paraplegia	B4GALNT1
+Hereditary spastic paraplegia	BSCL2
+Hereditary spastic paraplegia	C12orf65
+Hereditary spastic paraplegia	C19orf12
+Hereditary spastic paraplegia	CAPN1
+Hereditary spastic paraplegia	CYP27A1
+Hereditary spastic paraplegia	CYP2U1
+Hereditary spastic paraplegia	CYP7B1
+Hereditary spastic paraplegia	DDHD1
+Hereditary spastic paraplegia	DDHD2
+Hereditary spastic paraplegia	ERLIN1
+Hereditary spastic paraplegia	ERLIN2
+Hereditary spastic paraplegia	FA2H
+Hereditary spastic paraplegia	FARS2
+Hereditary spastic paraplegia	GBA2
+Hereditary spastic paraplegia	HACE1
+Hereditary spastic paraplegia	HSPD1
+Hereditary spastic paraplegia	KIDINS220
+Hereditary spastic paraplegia	KIF1A
+Hereditary spastic paraplegia	KIF5A
+Hereditary spastic paraplegia	L1CAM
+Hereditary spastic paraplegia	NIPA1
+Hereditary spastic paraplegia	NKX6-2
+Hereditary spastic paraplegia	NT5C2
+Hereditary spastic paraplegia	OPA3
+Hereditary spastic paraplegia	PLP1
+Hereditary spastic paraplegia	PNPLA6
+Hereditary spastic paraplegia	POLR3A
+Hereditary spastic paraplegia	REEP1
+Hereditary spastic paraplegia	RTN2
+Hereditary spastic paraplegia	SACS
+Hereditary spastic paraplegia	SERAC1
+Hereditary spastic paraplegia	SLC16A2
+Hereditary spastic paraplegia	SLC1A4
+Hereditary spastic paraplegia	SLC25A46
+Hereditary spastic paraplegia	SLC2A1
+Hereditary spastic paraplegia	SPAST
+Hereditary spastic paraplegia	SPG11
+Hereditary spastic paraplegia	SPG21
+Hereditary spastic paraplegia	SPG7
+Hereditary spastic paraplegia	TUBB4A
+Hereditary spastic paraplegia	UBAP1
+Hereditary spastic paraplegia	WDR45B
+Hereditary spastic paraplegia	ZFYVE26
+Holoprosencephaly	CDON
+Holoprosencephaly	DISP1
+Holoprosencephaly	FGF8
+Holoprosencephaly	FGFR1
+Holoprosencephaly	GLI2
+Holoprosencephaly	PTCH1
+Holoprosencephaly	SHH
+Holoprosencephaly	SIX3
+Holoprosencephaly	TGIF1
+Holoprosencephaly	ZIC2
+Inherited white matter disorders	COQ8A
+Inherited white matter disorders	TWNK
+Inherited white matter disorders	AARS2
+Inherited white matter disorders	ABCD1
+Inherited white matter disorders	ACOX1
+Inherited white matter disorders	ADAR
+Inherited white matter disorders	AIMP1
+Inherited white matter disorders	ALDH3A2
+Inherited white matter disorders	ARSA
+Inherited white matter disorders	ASPA
+Inherited white matter disorders	BCAP31
+Inherited white matter disorders	BCS1L
+Inherited white matter disorders	CIC
+Inherited white matter disorders	CLCN2
+Inherited white matter disorders	COQ2
+Inherited white matter disorders	COX10
+Inherited white matter disorders	COX15
+Inherited white matter disorders	CSF1R
+Inherited white matter disorders	CYP27A1
+Inherited white matter disorders	D2HGDH
+Inherited white matter disorders	DARS
+Inherited white matter disorders	DARS2
+Inherited white matter disorders	DGUOK
+Inherited white matter disorders	DPYD
+Inherited white matter disorders	EARS2
+Inherited white matter disorders	EIF2B1
+Inherited white matter disorders	EIF2B2
+Inherited white matter disorders	EIF2B3
+Inherited white matter disorders	EIF2B4
+Inherited white matter disorders	EIF2B5
+Inherited white matter disorders	ERCC6
+Inherited white matter disorders	ERCC8
+Inherited white matter disorders	ETFDH
+Inherited white matter disorders	FAM126A
+Inherited white matter disorders	FLVCR2
+Inherited white matter disorders	FOLR1
+Inherited white matter disorders	FUCA1
+Inherited white matter disorders	GALC
+Inherited white matter disorders	GBE1
+Inherited white matter disorders	GFAP
+Inherited white matter disorders	GFM1
+Inherited white matter disorders	GJA1
+Inherited white matter disorders	GJB1
+Inherited white matter disorders	GJC2
+Inherited white matter disorders	HEPACAM
+Inherited white matter disorders	HSD17B4
+Inherited white matter disorders	IBA57
+Inherited white matter disorders	IFIH1
+Inherited white matter disorders	L2HGDH
+Inherited white matter disorders	LAMB1
+Inherited white matter disorders	LMNB1
+Inherited white matter disorders	LYRM7
+Inherited white matter disorders	MCOLN1
+Inherited white matter disorders	MEF2C
+Inherited white matter disorders	MLC1
+Inherited white matter disorders	MPLKIP
+Inherited white matter disorders	MTFMT
+Inherited white matter disorders	NDUFAF1
+Inherited white matter disorders	NDUFAF3
+Inherited white matter disorders	NDUFS1
+Inherited white matter disorders	NDUFS2
+Inherited white matter disorders	NDUFS4
+Inherited white matter disorders	NDUFS7
+Inherited white matter disorders	NDUFS8
+Inherited white matter disorders	NDUFV1
+Inherited white matter disorders	NKX6-2
+Inherited white matter disorders	NUBPL
+Inherited white matter disorders	PAFAH1B1
+Inherited white matter disorders	PEX1
+Inherited white matter disorders	PEX10
+Inherited white matter disorders	PEX12
+Inherited white matter disorders	PEX13
+Inherited white matter disorders	PEX16
+Inherited white matter disorders	PEX2
+Inherited white matter disorders	PEX26
+Inherited white matter disorders	PEX3
+Inherited white matter disorders	PEX5
+Inherited white matter disorders	PEX6
+Inherited white matter disorders	PLP1
+Inherited white matter disorders	POLG
+Inherited white matter disorders	POLG2
+Inherited white matter disorders	POLR1C
+Inherited white matter disorders	POLR3A
+Inherited white matter disorders	POLR3B
+Inherited white matter disorders	PSAP
+Inherited white matter disorders	PYCR2
+Inherited white matter disorders	RARS
+Inherited white matter disorders	RNASEH2A
+Inherited white matter disorders	RNASEH2B
+Inherited white matter disorders	RNASEH2C
+Inherited white matter disorders	RNASET2
+Inherited white matter disorders	RRM2B
+Inherited white matter disorders	SAMHD1
+Inherited white matter disorders	SCO1
+Inherited white matter disorders	SCO2
+Inherited white matter disorders	SCP2
+Inherited white matter disorders	SDHAF1
+Inherited white matter disorders	SDHB
+Inherited white matter disorders	SLC16A2
+Inherited white matter disorders	SLC17A5
+Inherited white matter disorders	SLC25A12
+Inherited white matter disorders	SLC25A4
+Inherited white matter disorders	SNORD118
+Inherited white matter disorders	SOX10
+Inherited white matter disorders	SUCLA2
+Inherited white matter disorders	SUMF1
+Inherited white matter disorders	SURF1
+Inherited white matter disorders	TACO1
+Inherited white matter disorders	TREX1
+Inherited white matter disorders	TUBB4A
+Inherited white matter disorders	TYMP
+Intellectual disability	AAAS
+Intellectual disability	ABCC9
+Intellectual disability	ABCD1
+Intellectual disability	ACADS
+Intellectual disability	ACO2
+Intellectual disability	ACOX1
+Intellectual disability	ACSL4
+Intellectual disability	ACY1
+Intellectual disability	ADAR
+Intellectual disability	ADK
+Intellectual disability	ADNP
+Intellectual disability	ADSL
+Intellectual disability	AFF2
+Intellectual disability	AHDC1
+Intellectual disability	AIFM1
+Intellectual disability	AKT3
+Intellectual disability	ALDH18A1
+Intellectual disability	ALDH4A1
+Intellectual disability	ALDH5A1
+Intellectual disability	ALG1
+Intellectual disability	ALG11
+Intellectual disability	ALG12
+Intellectual disability	ALG13
+Intellectual disability	ALG3
+Intellectual disability	ALG6
+Intellectual disability	ALG8
+Intellectual disability	ANKRD11
+Intellectual disability	AP1S1
+Intellectual disability	AP1S2
+Intellectual disability	AP3B1
+Intellectual disability	AP3B2
+Intellectual disability	AP4B1
+Intellectual disability	AP4E1
+Intellectual disability	AP4M1
+Intellectual disability	AP4S1
+Intellectual disability	APOPT1
+Intellectual disability	ARCN1
+Intellectual disability	ARG1
+Intellectual disability	ARHGEF9
+Intellectual disability	ARID1A
+Intellectual disability	ARID1B
+Intellectual disability	ARID2
+Intellectual disability	ARL13B
+Intellectual disability	ARV1
+Intellectual disability	ARX
+Intellectual disability	ASH1L
+Intellectual disability	ASL
+Intellectual disability	ASPM
+Intellectual disability	ASS1
+Intellectual disability	ASXL2
+Intellectual disability	ASXL3
+Intellectual disability	ATIC
+Intellectual disability	ATL1
+Intellectual disability	ATM
+Intellectual disability	ATP6AP2
+Intellectual disability	ATP6V0A2
+Intellectual disability	ATP7A
+Intellectual disability	ATRX
+Intellectual disability	AUH
+Intellectual disability	AUTS2
+Intellectual disability	B3GLCT
+Intellectual disability	BBS1
+Intellectual disability	BBS10
+Intellectual disability	BBS12
+Intellectual disability	BBS2
+Intellectual disability	BBS4
+Intellectual disability	BBS5
+Intellectual disability	BBS7
+Intellectual disability	BBS9
+Intellectual disability	BCKDK
+Intellectual disability	BCL11A
+Intellectual disability	BCOR
+Intellectual disability	BMP4
+Intellectual disability	BPTF
+Intellectual disability	BRAF
+Intellectual disability	BRF1
+Intellectual disability	BRPF1
+Intellectual disability	BRWD3
+Intellectual disability	BSCL2
+Intellectual disability	BUB1B
+Intellectual disability	C12orf4
+Intellectual disability	C12orf57
+Intellectual disability	CACNA1A
+Intellectual disability	CACNA1D
+Intellectual disability	CAMK2A
+Intellectual disability	CAMK2B
+Intellectual disability	CAMTA1
+Intellectual disability	CASK
+Intellectual disability	CBS
+Intellectual disability	CC2D1A
+Intellectual disability	CC2D2A
+Intellectual disability	CCDC22
+Intellectual disability	CCND2
+Intellectual disability	CDC42
+Intellectual disability	CDH11
+Intellectual disability	CDH15
+Intellectual disability	CDK13
+Intellectual disability	CDK5RAP2
+Intellectual disability	CDKL5
+Intellectual disability	CENPF
+Intellectual disability	CENPJ
+Intellectual disability	CEP290
+Intellectual disability	CEP41
+Intellectual disability	CEP57
+Intellectual disability	CEP83
+Intellectual disability	CHD2
+Intellectual disability	CHD4
+Intellectual disability	CHD7
+Intellectual disability	CHD8
+Intellectual disability	CHMP1A
+Intellectual disability	CKAP2L
+Intellectual disability	CLCN4
+Intellectual disability	CLN3
+Intellectual disability	CLPB
+Intellectual disability	CLTC
+Intellectual disability	CNKSR2
+Intellectual disability	CNOT3
+Intellectual disability	CNTNAP2
+Intellectual disability	COASY
+Intellectual disability	COG1
+Intellectual disability	COG4
+Intellectual disability	COG5
+Intellectual disability	COG7
+Intellectual disability	COG8
+Intellectual disability	COQ4
+Intellectual disability	COQ8A
+Intellectual disability	CPS1
+Intellectual disability	CRADD
+Intellectual disability	CREBBP
+Intellectual disability	CSNK2A1
+Intellectual disability	CSPP1
+Intellectual disability	CTC1
+Intellectual disability	CTCF
+Intellectual disability	CTNNB1
+Intellectual disability	CTSA
+Intellectual disability	CUL4B
+Intellectual disability	CYB5R3
+Intellectual disability	DAG1
+Intellectual disability	DARS2
+Intellectual disability	DBT
+Intellectual disability	DCHS1
+Intellectual disability	DCX
+Intellectual disability	DDOST
+Intellectual disability	DDX3X
+Intellectual disability	DEAF1
+Intellectual disability	DHCR24
+Intellectual disability	DHCR7
+Intellectual disability	DKC1
+Intellectual disability	DLG3
+Intellectual disability	DMD
+Intellectual disability	DNAJC12
+Intellectual disability	DNAJC19
+Intellectual disability	DNM1
+Intellectual disability	DNMT3A
+Intellectual disability	DOCK7
+Intellectual disability	DOCK8
+Intellectual disability	DOLK
+Intellectual disability	DPAGT1
+Intellectual disability	DPYD
+Intellectual disability	DYNC1H1
+Intellectual disability	DYRK1A
+Intellectual disability	EBF3
+Intellectual disability	EBP
+Intellectual disability	EED
+Intellectual disability	EEF1A2
+Intellectual disability	EHMT1
+Intellectual disability	EIF2S3
+Intellectual disability	EIF4A3
+Intellectual disability	ELOVL4
+Intellectual disability	ELP2
+Intellectual disability	EML1
+Intellectual disability	EMX2
+Intellectual disability	EP300
+Intellectual disability	ERCC2
+Intellectual disability	ERCC3
+Intellectual disability	ERCC5
+Intellectual disability	ERCC6
+Intellectual disability	ERCC8
+Intellectual disability	ETHE1
+Intellectual disability	EXTL3
+Intellectual disability	EZH2
+Intellectual disability	FAM126A
+Intellectual disability	FAR1
+Intellectual disability	FGD1
+Intellectual disability	FGF12
+Intellectual disability	FKRP
+Intellectual disability	FKTN
+Intellectual disability	FLNA
+Intellectual disability	FMN2
+Intellectual disability	FMR1
+Intellectual disability	FOLR1
+Intellectual disability	FOXG1
+Intellectual disability	FOXP1
+Intellectual disability	FOXP2
+Intellectual disability	FTSJ1
+Intellectual disability	GALE
+Intellectual disability	GAMT
+Intellectual disability	GATM
+Intellectual disability	GDI1
+Intellectual disability	GFAP
+Intellectual disability	GFER
+Intellectual disability	GFM1
+Intellectual disability	GK
+Intellectual disability	GLI2
+Intellectual disability	GLI3
+Intellectual disability	GLIS3
+Intellectual disability	GLUL
+Intellectual disability	GLYCTK
+Intellectual disability	GM2A
+Intellectual disability	GMPPB
+Intellectual disability	GNAI1
+Intellectual disability	GNAS
+Intellectual disability	GNB1
+Intellectual disability	GNPAT
+Intellectual disability	GNPTAB
+Intellectual disability	GNPTG
+Intellectual disability	GPAA1
+Intellectual disability	GPC3
+Intellectual disability	GRIA3
+Intellectual disability	GRIA4
+Intellectual disability	GRID2
+Intellectual disability	GRIK2
+Intellectual disability	GRIN1
+Intellectual disability	GRIN2A
+Intellectual disability	GRIN2B
+Intellectual disability	GRM1
+Intellectual disability	GTPBP3
+Intellectual disability	GUSB
+Intellectual disability	HACE1
+Intellectual disability	HCN1
+Intellectual disability	HDAC4
+Intellectual disability	HDAC8
+Intellectual disability	HECW2
+Intellectual disability	HEXB
+Intellectual disability	HIST1H1E
+Intellectual disability	HIVEP2
+Intellectual disability	HNRNPH2
+Intellectual disability	HNRNPK
+Intellectual disability	HNRNPU
+Intellectual disability	HOXA1
+Intellectual disability	HPD
+Intellectual disability	HPRT1
+Intellectual disability	HRAS
+Intellectual disability	HSD17B10
+Intellectual disability	HSPD1
+Intellectual disability	HUWE1
+Intellectual disability	IARS
+Intellectual disability	IDS
+Intellectual disability	IER3IP1
+Intellectual disability	IFIH1
+Intellectual disability	IGF1
+Intellectual disability	IGF1R
+Intellectual disability	IL1RAPL1
+Intellectual disability	INPP5K
+Intellectual disability	IQSEC2
+Intellectual disability	IRX5
+Intellectual disability	KANSL1
+Intellectual disability	KAT6A
+Intellectual disability	KCNC1
+Intellectual disability	KCNH1
+Intellectual disability	KCNJ10
+Intellectual disability	KCNJ11
+Intellectual disability	KCNK9
+Intellectual disability	KCNQ2
+Intellectual disability	KCNQ5
+Intellectual disability	KCTD7
+Intellectual disability	KDM1A
+Intellectual disability	KDM5B
+Intellectual disability	KDM5C
+Intellectual disability	KDM6A
+Intellectual disability	KIAA0586
+Intellectual disability	KIAA1109
+Intellectual disability	KIDINS220
+Intellectual disability	KIF11
+Intellectual disability	KIF1A
+Intellectual disability	KIF1BP
+Intellectual disability	KIF5A
+Intellectual disability	KIF5C
+Intellectual disability	KIF7
+Intellectual disability	KMT2A
+Intellectual disability	KMT2C
+Intellectual disability	KMT2D
+Intellectual disability	KNL1
+Intellectual disability	KPTN
+Intellectual disability	KRAS
+Intellectual disability	L1CAM
+Intellectual disability	LAMA1
+Intellectual disability	LAMA2
+Intellectual disability	LAMC3
+Intellectual disability	LAMP2
+Intellectual disability	LARGE1
+Intellectual disability	LIG4
+Intellectual disability	LINS1
+Intellectual disability	LONP1
+Intellectual disability	LRP2
+Intellectual disability	MAGEL2
+Intellectual disability	MAN1B1
+Intellectual disability	MAN2B1
+Intellectual disability	MANBA
+Intellectual disability	MAOA
+Intellectual disability	MAP2K2
+Intellectual disability	MAT1A
+Intellectual disability	MBD5
+Intellectual disability	MBOAT7
+Intellectual disability	MBTPS2
+Intellectual disability	MCCC1
+Intellectual disability	MCCC2
+Intellectual disability	MCOLN1
+Intellectual disability	MCPH1
+Intellectual disability	MDH2
+Intellectual disability	MECP2
+Intellectual disability	MED12
+Intellectual disability	MED13L
+Intellectual disability	MED17
+Intellectual disability	MEF2C
+Intellectual disability	MFSD8
+Intellectual disability	MGAT2
+Intellectual disability	MICU1
+Intellectual disability	MID1
+Intellectual disability	MKKS
+Intellectual disability	MLYCD
+Intellectual disability	MMADHC
+Intellectual disability	MOCS2
+Intellectual disability	MOGS
+Intellectual disability	MPI
+Intellectual disability	MTHFR
+Intellectual disability	MTOR
+Intellectual disability	MTR
+Intellectual disability	MYCN
+Intellectual disability	MYO5A
+Intellectual disability	MYT1L
+Intellectual disability	NAA10
+Intellectual disability	NAA15
+Intellectual disability	NACC1
+Intellectual disability	NAGA
+Intellectual disability	NALCN
+Intellectual disability	NDP
+Intellectual disability	NDST1
+Intellectual disability	NDUFA1
+Intellectual disability	NDUFS1
+Intellectual disability	NEXMIF
+Intellectual disability	NF1
+Intellectual disability	NFIA
+Intellectual disability	NFIX
+Intellectual disability	NHS
+Intellectual disability	NIPBL
+Intellectual disability	NLGN3
+Intellectual disability	NONO
+Intellectual disability	NPC1
+Intellectual disability	NPC2
+Intellectual disability	NR2F1
+Intellectual disability	NRXN1
+Intellectual disability	NSD1
+Intellectual disability	NSDHL
+Intellectual disability	NSUN2
+Intellectual disability	NTRK1
+Intellectual disability	OCRL
+Intellectual disability	OFD1
+Intellectual disability	OPA3
+Intellectual disability	OPHN1
+Intellectual disability	OTUD6B
+Intellectual disability	PACS1
+Intellectual disability	PAFAH1B1
+Intellectual disability	PAH
+Intellectual disability	PAK3
+Intellectual disability	PARN
+Intellectual disability	PAX6
+Intellectual disability	PCCA
+Intellectual disability	PCCB
+Intellectual disability	PCDH19
+Intellectual disability	PCNT
+Intellectual disability	PDE4D
+Intellectual disability	PDGFRB
+Intellectual disability	PDSS1
+Intellectual disability	PEX11B
+Intellectual disability	PEX7
+Intellectual disability	PGAP1
+Intellectual disability	PGAP3
+Intellectual disability	PGK1
+Intellectual disability	PGM3
+Intellectual disability	PHF6
+Intellectual disability	PHF8
+Intellectual disability	PIGL
+Intellectual disability	PIGN
+Intellectual disability	PIGO
+Intellectual disability	PIGV
+Intellectual disability	PIK3R2
+Intellectual disability	PLA2G6
+Intellectual disability	PLAA
+Intellectual disability	PLK4
+Intellectual disability	PLP1
+Intellectual disability	PLPBP
+Intellectual disability	PMM2
+Intellectual disability	PNKP
+Intellectual disability	PNPLA6
+Intellectual disability	POGZ
+Intellectual disability	POMGNT1
+Intellectual disability	POMT1
+Intellectual disability	POMT2
+Intellectual disability	PORCN
+Intellectual disability	PPM1D
+Intellectual disability	PPP2R5D
+Intellectual disability	PQBP1
+Intellectual disability	PRKD1
+Intellectual disability	PRODH
+Intellectual disability	PRPS1
+Intellectual disability	PRSS12
+Intellectual disability	PRUNE1
+Intellectual disability	PSMD12
+Intellectual disability	PSPH
+Intellectual disability	PTCH1
+Intellectual disability	PTCHD1
+Intellectual disability	PTDSS1
+Intellectual disability	PTEN
+Intellectual disability	PTPN11
+Intellectual disability	PTPN23
+Intellectual disability	PUF60
+Intellectual disability	PURA
+Intellectual disability	PUS1
+Intellectual disability	PYCR1
+Intellectual disability	PYCR2
+Intellectual disability	QARS
+Intellectual disability	QRICH1
+Intellectual disability	RAB11B
+Intellectual disability	RAB39B
+Intellectual disability	RAC1
+Intellectual disability	RAD21
+Intellectual disability	RAI1
+Intellectual disability	RARB
+Intellectual disability	RBBP8
+Intellectual disability	RBM10
+Intellectual disability	RELN
+Intellectual disability	RFT1
+Intellectual disability	RLIM
+Intellectual disability	RNF125
+Intellectual disability	RPGRIP1L
+Intellectual disability	RPL10
+Intellectual disability	RPS6KA3
+Intellectual disability	RRM2B
+Intellectual disability	RTTN
+Intellectual disability	SAMHD1
+Intellectual disability	SATB2
+Intellectual disability	SCN1A
+Intellectual disability	SCN2A
+Intellectual disability	SCN3A
+Intellectual disability	SCN8A
+Intellectual disability	SDCCAG8
+Intellectual disability	SERAC1
+Intellectual disability	SETBP1
+Intellectual disability	SETD2
+Intellectual disability	SETD5
+Intellectual disability	SGSH
+Intellectual disability	SHANK2
+Intellectual disability	SHANK3
+Intellectual disability	SIL1
+Intellectual disability	SLC12A6
+Intellectual disability	SLC13A5
+Intellectual disability	SLC16A2
+Intellectual disability	SLC25A15
+Intellectual disability	SLC2A1
+Intellectual disability	SLC33A1
+Intellectual disability	SLC35C1
+Intellectual disability	SLC39A14
+Intellectual disability	SLC46A1
+Intellectual disability	SLC4A4
+Intellectual disability	SLC6A1
+Intellectual disability	SLC6A17
+Intellectual disability	SLC6A8
+Intellectual disability	SLC6A9
+Intellectual disability	SLC9A6
+Intellectual disability	SLX4
+Intellectual disability	SMAD4
+Intellectual disability	SMARCA2
+Intellectual disability	SMARCA4
+Intellectual disability	SMARCB1
+Intellectual disability	SMARCE1
+Intellectual disability	SMC1A
+Intellectual disability	SMC3
+Intellectual disability	SMS
+Intellectual disability	SNX14
+Intellectual disability	SON
+Intellectual disability	SOX10
+Intellectual disability	SOX2
+Intellectual disability	SOX3
+Intellectual disability	SOX5
+Intellectual disability	SPART
+Intellectual disability	SPECC1L
+Intellectual disability	SPR
+Intellectual disability	SPTAN1
+Intellectual disability	SPTBN2
+Intellectual disability	SRCAP
+Intellectual disability	SRD5A3
+Intellectual disability	SSR4
+Intellectual disability	ST3GAL3
+Intellectual disability	ST3GAL5
+Intellectual disability	STIL
+Intellectual disability	STRA6
+Intellectual disability	STX1B
+Intellectual disability	STXBP1
+Intellectual disability	SUCLG1
+Intellectual disability	SYN1
+Intellectual disability	SYNGAP1
+Intellectual disability	SYP
+Intellectual disability	SZT2
+Intellectual disability	TAF1
+Intellectual disability	TAF6
+Intellectual disability	TBC1D23
+Intellectual disability	TBC1D24
+Intellectual disability	TBCD
+Intellectual disability	TBCE
+Intellectual disability	TBL1XR1
+Intellectual disability	TBR1
+Intellectual disability	TCF4
+Intellectual disability	TECPR2
+Intellectual disability	TGIF1
+Intellectual disability	TH
+Intellectual disability	THOC2
+Intellectual disability	THOC6
+Intellectual disability	TLK2
+Intellectual disability	TMCO1
+Intellectual disability	TMEM165
+Intellectual disability	TMEM216
+Intellectual disability	TMEM240
+Intellectual disability	TMEM67
+Intellectual disability	TMEM70
+Intellectual disability	TMTC3
+Intellectual disability	TRAPPC9
+Intellectual disability	TRIO
+Intellectual disability	TRIT1
+Intellectual disability	TRMT10A
+Intellectual disability	TSC1
+Intellectual disability	TSC2
+Intellectual disability	TSPAN7
+Intellectual disability	TUBA1A
+Intellectual disability	TUBB2A
+Intellectual disability	TUBB2B
+Intellectual disability	TUBB3
+Intellectual disability	TUSC3
+Intellectual disability	TWIST1
+Intellectual disability	UBA5
+Intellectual disability	UBE2A
+Intellectual disability	UBE3A
+Intellectual disability	UBTF
+Intellectual disability	UNC80
+Intellectual disability	UPF3B
+Intellectual disability	UROC1
+Intellectual disability	USP9X
+Intellectual disability	VAMP1
+Intellectual disability	VLDLR
+Intellectual disability	VPS13B
+Intellectual disability	VPS53
+Intellectual disability	WAC
+Intellectual disability	WDR26
+Intellectual disability	WDR45B
+Intellectual disability	WDR62
+Intellectual disability	WDR73
+Intellectual disability	WWOX
+Intellectual disability	YY1
+Intellectual disability	ZBTB20
+Intellectual disability	ZBTB24
+Intellectual disability	ZDHHC9
+Intellectual disability	ZEB2
+Intellectual disability	ZFYVE26
+Intellectual disability	ZIC2
+Intellectual disability	ZMYND11
+Intellectual disability	ZNF711
+Intellectual disability	ZSWIM6
+Intellectual disability	AARS
+Intellectual disability	AASS
+Intellectual disability	ABCD4
+Intellectual disability	ABHD5
+Intellectual disability	ACAD9
+Intellectual disability	ACADM
+Intellectual disability	ACTB
+Intellectual disability	ACTG1
+Intellectual disability	ACTL6A
+Intellectual disability	ADAT3
+Intellectual disability	ADGRG1
+Intellectual disability	AFF4
+Intellectual disability	AFG3L2
+Intellectual disability	AGA
+Intellectual disability	AGPS
+Intellectual disability	AHI1
+Intellectual disability	AIMP1
+Intellectual disability	ALDH3A2
+Intellectual disability	ALDH7A1
+Intellectual disability	ALMS1
+Intellectual disability	AMER1
+Intellectual disability	AMPD2
+Intellectual disability	AMT
+Intellectual disability	ANKH
+Intellectual disability	ARFGEF2
+Intellectual disability	ARL6
+Intellectual disability	ARMC9
+Intellectual disability	ARSA
+Intellectual disability	ARSB
+Intellectual disability	ARSE
+Intellectual disability	ASAH1
+Intellectual disability	ASNS
+Intellectual disability	ASPA
+Intellectual disability	ASXL1
+Intellectual disability	ATAD3A
+Intellectual disability	ATP13A2
+Intellectual disability	ATP1A1
+Intellectual disability	ATP6V1A
+Intellectual disability	ATP6V1B2
+Intellectual disability	ATP8A2
+Intellectual disability	ATR
+Intellectual disability	B3GALNT2
+Intellectual disability	B4GALNT1
+Intellectual disability	B4GALT7
+Intellectual disability	BCAP31
+Intellectual disability	BCKDHA
+Intellectual disability	BCKDHB
+Intellectual disability	BCL11B
+Intellectual disability	BCS1L
+Intellectual disability	BLM
+Intellectual disability	BOLA3
+Intellectual disability	BRAT1
+Intellectual disability	BTD
+Intellectual disability	C12orf65
+Intellectual disability	C5orf42
+Intellectual disability	CA2
+Intellectual disability	CA8
+Intellectual disability	CACNA1C
+Intellectual disability	CACNA1E
+Intellectual disability	CACNA1G
+Intellectual disability	CBL
+Intellectual disability	CCBE1
+Intellectual disability	CCDC47
+Intellectual disability	CCDC88C
+Intellectual disability	CDC6
+Intellectual disability	CDK10
+Intellectual disability	CDK8
+Intellectual disability	CDON
+Intellectual disability	CEP135
+Intellectual disability	CEP152
+Intellectual disability	CHAMP1
+Intellectual disability	CHD3
+Intellectual disability	CIC
+Intellectual disability	CIT
+Intellectual disability	CLN5
+Intellectual disability	CLN6
+Intellectual disability	CLN8
+Intellectual disability	CLP1
+Intellectual disability	CNNM2
+Intellectual disability	COG6
+Intellectual disability	COL4A1
+Intellectual disability	COL4A2
+Intellectual disability	COL4A3BP
+Intellectual disability	COLEC11
+Intellectual disability	COX10
+Intellectual disability	COX15
+Intellectual disability	COX6B1
+Intellectual disability	CRB2
+Intellectual disability	CSNK2B
+Intellectual disability	CSTB
+Intellectual disability	CTDP1
+Intellectual disability	CTNNA2
+Intellectual disability	CTSD
+Intellectual disability	CUX2
+Intellectual disability	CWF19L1
+Intellectual disability	CYC1
+Intellectual disability	CYP2U1
+Intellectual disability	D2HGDH
+Intellectual disability	DARS
+Intellectual disability	DCAF17
+Intellectual disability	DDC
+Intellectual disability	DDHD2
+Intellectual disability	DDX11
+Intellectual disability	DEPDC5
+Intellectual disability	DHDDS
+Intellectual disability	DHFR
+Intellectual disability	DHTKD1
+Intellectual disability	DHX30
+Intellectual disability	DIAPH1
+Intellectual disability	DIS3L2
+Intellectual disability	DLD
+Intellectual disability	DNMT3B
+Intellectual disability	DOCK6
+Intellectual disability	DPF2
+Intellectual disability	DPM1
+Intellectual disability	DPP6
+Intellectual disability	DYM
+Intellectual disability	EFTUD2
+Intellectual disability	EIF2AK3
+Intellectual disability	EIF3F
+Intellectual disability	ELAC2
+Intellectual disability	EPG5
+Intellectual disability	ERCC1
+Intellectual disability	ERCC6L2
+Intellectual disability	ERLIN2
+Intellectual disability	ESCO2
+Intellectual disability	ETFA
+Intellectual disability	ETFB
+Intellectual disability	ETFDH
+Intellectual disability	EXOSC3
+Intellectual disability	FAM111A
+Intellectual disability	FAM20C
+Intellectual disability	FAT4
+Intellectual disability	FBXL4
+Intellectual disability	FBXO11
+Intellectual disability	FH
+Intellectual disability	FIG4
+Intellectual disability	FLVCR1
+Intellectual disability	FLVCR2
+Intellectual disability	FOXRED1
+Intellectual disability	FTCD
+Intellectual disability	FUCA1
+Intellectual disability	FUT8
+Intellectual disability	GABRA1
+Intellectual disability	GABRB2
+Intellectual disability	GABRB3
+Intellectual disability	GABRG2
+Intellectual disability	GALC
+Intellectual disability	GALT
+Intellectual disability	GATAD2B
+Intellectual disability	GCDH
+Intellectual disability	GCH1
+Intellectual disability	GJC2
+Intellectual disability	GLB1
+Intellectual disability	GLDC
+Intellectual disability	GMPPA
+Intellectual disability	GNAO1
+Intellectual disability	GNS
+Intellectual disability	GPSM2
+Intellectual disability	GRIN2D
+Intellectual disability	GTF2H5
+Intellectual disability	GTPBP2
+Intellectual disability	HADH
+Intellectual disability	HADHA
+Intellectual disability	HCCS
+Intellectual disability	HCFC1
+Intellectual disability	HEPACAM
+Intellectual disability	HERC1
+Intellectual disability	HESX1
+Intellectual disability	HEXA
+Intellectual disability	HGSNAT
+Intellectual disability	HIBCH
+Intellectual disability	HLCS
+Intellectual disability	HMGCL
+Intellectual disability	HSD17B4
+Intellectual disability	HTRA2
+Intellectual disability	HYLS1
+Intellectual disability	IBA57
+Intellectual disability	IDH2
+Intellectual disability	IDUA
+Intellectual disability	IFT172
+Intellectual disability	IKBKG
+Intellectual disability	INPP5E
+Intellectual disability	INTS1
+Intellectual disability	IRF2BPL
+Intellectual disability	ISPD
+Intellectual disability	ITPR1
+Intellectual disability	IVD
+Intellectual disability	JAM3
+Intellectual disability	KARS
+Intellectual disability	KAT6B
+Intellectual disability	KCNA2
+Intellectual disability	KCNB1
+Intellectual disability	KCNC3
+Intellectual disability	KCNJ6
+Intellectual disability	KCNQ3
+Intellectual disability	KCNT1
+Intellectual disability	L2HGDH
+Intellectual disability	LAMB1
+Intellectual disability	LARP7
+Intellectual disability	LGI4
+Intellectual disability	LRPPRC
+Intellectual disability	LZTR1
+Intellectual disability	MAB21L1
+Intellectual disability	MAB21L2
+Intellectual disability	MACF1
+Intellectual disability	MAF
+Intellectual disability	MAP2K1
+Intellectual disability	MAPK8IP3
+Intellectual disability	MASP1
+Intellectual disability	MAST1
+Intellectual disability	MCM3AP
+Intellectual disability	MED23
+Intellectual disability	MEIS2
+Intellectual disability	METTL23
+Intellectual disability	MFF
+Intellectual disability	MGP
+Intellectual disability	MKS1
+Intellectual disability	MLC1
+Intellectual disability	MMAA
+Intellectual disability	MMAB
+Intellectual disability	MMACHC
+Intellectual disability	MOCS1
+Intellectual disability	MPDU1
+Intellectual disability	MPLKIP
+Intellectual disability	MRPS22
+Intellectual disability	MSL3
+Intellectual disability	MSMO1
+Intellectual disability	MTRR
+Intellectual disability	MUT
+Intellectual disability	MVK
+Intellectual disability	NAGLU
+Intellectual disability	NANS
+Intellectual disability	NBEA
+Intellectual disability	NDE1
+Intellectual disability	NDUFS4
+Intellectual disability	NDUFS7
+Intellectual disability	NDUFS8
+Intellectual disability	NDUFV1
+Intellectual disability	NEU1
+Intellectual disability	NFU1
+Intellectual disability	NGLY1
+Intellectual disability	NKX2-1
+Intellectual disability	NPHP1
+Intellectual disability	NRAS
+Intellectual disability	NSD2
+Intellectual disability	NT5C2
+Intellectual disability	NTRK2
+Intellectual disability	NUBPL
+Intellectual disability	OCLN
+Intellectual disability	ODC1
+Intellectual disability	OGT
+Intellectual disability	OSGEP
+Intellectual disability	OTC
+Intellectual disability	OTX2
+Intellectual disability	PACS2
+Intellectual disability	PAX8
+Intellectual disability	PBX1
+Intellectual disability	PC
+Intellectual disability	PCGF2
+Intellectual disability	PDHA1
+Intellectual disability	PDHX
+Intellectual disability	PDSS2
+Intellectual disability	PEPD
+Intellectual disability	PEX1
+Intellectual disability	PEX10
+Intellectual disability	PEX12
+Intellectual disability	PEX13
+Intellectual disability	PEX14
+Intellectual disability	PEX16
+Intellectual disability	PEX19
+Intellectual disability	PEX2
+Intellectual disability	PEX26
+Intellectual disability	PEX3
+Intellectual disability	PEX5
+Intellectual disability	PEX6
+Intellectual disability	PGAP2
+Intellectual disability	PHACTR1
+Intellectual disability	PHGDH
+Intellectual disability	PHIP
+Intellectual disability	PIGA
+Intellectual disability	PIGT
+Intellectual disability	PIK3CA
+Intellectual disability	PLCB1
+Intellectual disability	POLG
+Intellectual disability	POLR3A
+Intellectual disability	POLR3B
+Intellectual disability	POMGNT2
+Intellectual disability	PPP1CB
+Intellectual disability	PPP2R1A
+Intellectual disability	PPT1
+Intellectual disability	PRMT7
+Intellectual disability	PSAP
+Intellectual disability	PTF1A
+Intellectual disability	PTS
+Intellectual disability	QDPR
+Intellectual disability	RAB18
+Intellectual disability	RAB23
+Intellectual disability	RAB3GAP1
+Intellectual disability	RAB3GAP2
+Intellectual disability	RAF1
+Intellectual disability	RARS2
+Intellectual disability	RERE
+Intellectual disability	RHOBTB2
+Intellectual disability	RIT1
+Intellectual disability	RMND1
+Intellectual disability	RNASEH2A
+Intellectual disability	RNASEH2B
+Intellectual disability	RNASEH2C
+Intellectual disability	RNASET2
+Intellectual disability	ROGDI
+Intellectual disability	ROR2
+Intellectual disability	RORA
+Intellectual disability	RTEL1
+Intellectual disability	RTN4IP1
+Intellectual disability	SAMD9
+Intellectual disability	SC5D
+Intellectual disability	SCAPER
+Intellectual disability	SCO1
+Intellectual disability	SCO2
+Intellectual disability	SDHA
+Intellectual disability	SDHAF1
+Intellectual disability	SET
+Intellectual disability	SGPL1
+Intellectual disability	SHANK1
+Intellectual disability	SHH
+Intellectual disability	SHOC2
+Intellectual disability	SIK1
+Intellectual disability	SIN3A
+Intellectual disability	SIX3
+Intellectual disability	SKI
+Intellectual disability	SLC12A5
+Intellectual disability	SLC17A5
+Intellectual disability	SLC19A3
+Intellectual disability	SLC1A2
+Intellectual disability	SLC1A4
+Intellectual disability	SLC25A1
+Intellectual disability	SLC25A22
+Intellectual disability	SLC35A1
+Intellectual disability	SLC35A2
+Intellectual disability	SLC39A8
+Intellectual disability	SLC6A19
+Intellectual disability	SLC6A3
+Intellectual disability	SMARCC2
+Intellectual disability	SMOC1
+Intellectual disability	SMPD1
+Intellectual disability	SNAP29
+Intellectual disability	SNRPB
+Intellectual disability	SOS1
+Intellectual disability	SOS2
+Intellectual disability	SOX11
+Intellectual disability	SOX4
+Intellectual disability	SOX9
+Intellectual disability	SPATA5
+Intellectual disability	SPG11
+Intellectual disability	SPRED1
+Intellectual disability	STAG1
+Intellectual disability	STAG2
+Intellectual disability	STAMBP
+Intellectual disability	STRADA
+Intellectual disability	SUMF1
+Intellectual disability	SUOX
+Intellectual disability	SURF1
+Intellectual disability	SYNJ1
+Intellectual disability	SYT1
+Intellectual disability	TANGO2
+Intellectual disability	TAT
+Intellectual disability	TAZ
+Intellectual disability	TBC1D20
+Intellectual disability	TBCK
+Intellectual disability	TCF20
+Intellectual disability	TCN2
+Intellectual disability	TCTN2
+Intellectual disability	TELO2
+Intellectual disability	THRA
+Intellectual disability	TMEM237
+Intellectual disability	TMEM5
+Intellectual disability	TMEM94
+Intellectual disability	TOE1
+Intellectual disability	TPP1
+Intellectual disability	TREX1
+Intellectual disability	TRIM32
+Intellectual disability	TRIM8
+Intellectual disability	TRIP12
+Intellectual disability	TRMT1
+Intellectual disability	TSEN2
+Intellectual disability	TSEN34
+Intellectual disability	TSEN54
+Intellectual disability	TSFM
+Intellectual disability	TSHB
+Intellectual disability	TTC19
+Intellectual disability	TTC37
+Intellectual disability	TTC8
+Intellectual disability	TTI2
+Intellectual disability	TUBB
+Intellectual disability	TUBB4A
+Intellectual disability	TUBG1
+Intellectual disability	TUBGCP6
+Intellectual disability	UBE3B
+Intellectual disability	UBR1
+Intellectual disability	UMPS
+Intellectual disability	VRK1
+Intellectual disability	WASF1
+Intellectual disability	WDPCP
+Intellectual disability	WDR45
+Intellectual disability	WDR81
+Intellectual disability	XRCC4
+Intellectual disability	YWHAG
+Intellectual disability	ZBTB18
+Intellectual disability	ZC4H2
+Intracerebral calcification disorders	ACP5
+Intracerebral calcification disorders	ADAR
+Intracerebral calcification disorders	AP1S2
+Intracerebral calcification disorders	COL4A1
+Intracerebral calcification disorders	CTC1
+Intracerebral calcification disorders	CYP2U1
+Intracerebral calcification disorders	IFIH1
+Intracerebral calcification disorders	JAM3
+Intracerebral calcification disorders	KIAA1161
+Intracerebral calcification disorders	OCLN
+Intracerebral calcification disorders	PDGFB
+Intracerebral calcification disorders	PDGFRB
+Intracerebral calcification disorders	RNASEH2A
+Intracerebral calcification disorders	RNASEH2B
+Intracerebral calcification disorders	RNASEH2C
+Intracerebral calcification disorders	SAMHD1
+Intracerebral calcification disorders	SLC20A2
+Intracerebral calcification disorders	TREM2
+Intracerebral calcification disorders	TREX1
+Intracerebral calcification disorders	USP18
+Intracerebral calcification disorders	XPR1
+Kleine-Levin syndrome	DNMT1
+Limb girdle muscular dystrophy	ANO5
+Limb girdle muscular dystrophy	MTM1
+Limb girdle muscular dystrophy	CAPN3
+Limb girdle muscular dystrophy	CAV3
+Limb girdle muscular dystrophy	COL6A1
+Limb girdle muscular dystrophy	COL6A2
+Limb girdle muscular dystrophy	COL6A3
+Limb girdle muscular dystrophy	DMD
+Limb girdle muscular dystrophy	DNAJB6
+Limb girdle muscular dystrophy	DYSF
+Limb girdle muscular dystrophy	EMD
+Limb girdle muscular dystrophy	FHL1
+Limb girdle muscular dystrophy	FKRP
+Limb girdle muscular dystrophy	FKTN
+Limb girdle muscular dystrophy	FLNC
+Limb girdle muscular dystrophy	GAA
+Limb girdle muscular dystrophy	GMPPB
+Limb girdle muscular dystrophy	LMNA
+Limb girdle muscular dystrophy	MYOT
+Limb girdle muscular dystrophy	PLEC
+Limb girdle muscular dystrophy	POMGNT1
+Limb girdle muscular dystrophy	POMT1
+Limb girdle muscular dystrophy	POMT2
+Limb girdle muscular dystrophy	SGCA
+Limb girdle muscular dystrophy	SGCB
+Limb girdle muscular dystrophy	SGCD
+Limb girdle muscular dystrophy	SGCG
+Limb girdle muscular dystrophy	SYNE1
+Limb girdle muscular dystrophy	TCAP
+Limb girdle muscular dystrophy	TRAPPC11
+Limb girdle muscular dystrophy	TRIM32
+Limb girdle muscular dystrophy	VCP
+Malformations of cortical development	KIF1BP
+Malformations of cortical development	LARGE1
+Malformations of cortical development	PEX1
+Malformations of cortical development	PEX10
+Malformations of cortical development	PEX11B
+Malformations of cortical development	PEX12
+Malformations of cortical development	PEX13
+Malformations of cortical development	PEX14
+Malformations of cortical development	PEX16
+Malformations of cortical development	PEX19
+Malformations of cortical development	PEX2
+Malformations of cortical development	PEX26
+Malformations of cortical development	PEX3
+Malformations of cortical development	PEX5
+Malformations of cortical development	PEX6
+Malformations of cortical development	PEX7
+Malformations of cortical development	ACTB
+Malformations of cortical development	ACTG1
+Malformations of cortical development	ADGRG1
+Malformations of cortical development	AKT3
+Malformations of cortical development	ARFGEF2
+Malformations of cortical development	ARX
+Malformations of cortical development	ASPM
+Malformations of cortical development	B3GALNT2
+Malformations of cortical development	CCND2
+Malformations of cortical development	CDK13
+Malformations of cortical development	CSNK2A1
+Malformations of cortical development	DAG1
+Malformations of cortical development	DCX
+Malformations of cortical development	DYNC1H1
+Malformations of cortical development	FKRP
+Malformations of cortical development	FKTN
+Malformations of cortical development	FLNA
+Malformations of cortical development	GPSM2
+Malformations of cortical development	ISPD
+Malformations of cortical development	KATNB1
+Malformations of cortical development	KIF2A
+Malformations of cortical development	KIF5C
+Malformations of cortical development	LAMB1
+Malformations of cortical development	LAMC3
+Malformations of cortical development	MACF1
+Malformations of cortical development	MTOR
+Malformations of cortical development	NDE1
+Malformations of cortical development	NEDD4L
+Malformations of cortical development	OCLN
+Malformations of cortical development	OSGEP
+Malformations of cortical development	PAFAH1B1
+Malformations of cortical development	PIK3CA
+Malformations of cortical development	PIK3R2
+Malformations of cortical development	POMGNT1
+Malformations of cortical development	POMGNT2
+Malformations of cortical development	POMT1
+Malformations of cortical development	POMT2
+Malformations of cortical development	RELN
+Malformations of cortical development	RTTN
+Malformations of cortical development	SMO
+Malformations of cortical development	TMEM5
+Malformations of cortical development	TUBA1A
+Malformations of cortical development	TUBB
+Malformations of cortical development	TUBB2A
+Malformations of cortical development	TUBB2B
+Malformations of cortical development	TUBB3
+Malformations of cortical development	TUBG1
+Malformations of cortical development	WDR62
+Neurotransmitter disorders	DBH
+Neurotransmitter disorders	DDC
+Neurotransmitter disorders	DHFR
+Neurotransmitter disorders	DNAJC12
+Neurotransmitter disorders	FOLR1
+Neurotransmitter disorders	GCH1
+Neurotransmitter disorders	MAOA
+Neurotransmitter disorders	PTS
+Neurotransmitter disorders	QDPR
+Neurotransmitter disorders	SLC18A2
+Neurotransmitter disorders	SLC6A3
+Neurotransmitter disorders	SPR
+Neurotransmitter disorders	TH
+Paediatric motor neuronopathies	AR
+Paediatric motor neuronopathies	ASAH1
+Paediatric motor neuronopathies	BICD2
+Paediatric motor neuronopathies	CHCHD10
+Paediatric motor neuronopathies	DYNC1H1
+Paediatric motor neuronopathies	EXOSC3
+Paediatric motor neuronopathies	IGHMBP2
+Paediatric motor neuronopathies	SLC52A2
+Paediatric motor neuronopathies	SLC52A3
+Paediatric motor neuronopathies	SMN1
+Paediatric motor neuronopathies	SPG11
+Paediatric motor neuronopathies	TRIP4
+Paediatric motor neuronopathies	TRPV4
+Paediatric motor neuronopathies	UBA1
+Paediatric motor neuronopathies	VRK1
+Pain syndromes	ATL1
+Pain syndromes	ATL3
+Pain syndromes	ELP1
+Pain syndromes	GLA
+Pain syndromes	KIF1A
+Pain syndromes	NGF
+Pain syndromes	NTRK1
+Pain syndromes	PRDM12
+Pain syndromes	PRNP
+Pain syndromes	RAB7A
+Pain syndromes	RETREG1
+Pain syndromes	SCN10A
+Pain syndromes	SCN11A
+Pain syndromes	SCN9A
+Pain syndromes	SEPT9
+Pain syndromes	SPTLC1
+Pain syndromes	SPTLC2
+Pain syndromes	TRPA1
+Pain syndromes	TTR
+Pain syndromes	WNK1
+Parkinson Disease and Complex Parkinsonism	PRKN
+Parkinson Disease and Complex Parkinsonism	ATP13A2
+Parkinson Disease and Complex Parkinsonism	ATP1A3
+Parkinson Disease and Complex Parkinsonism	C19orf12
+Parkinson Disease and Complex Parkinsonism	CSF1R
+Parkinson Disease and Complex Parkinsonism	DCTN1
+Parkinson Disease and Complex Parkinsonism	DNAJC6
+Parkinson Disease and Complex Parkinsonism	FBXO7
+Parkinson Disease and Complex Parkinsonism	FTL
+Parkinson Disease and Complex Parkinsonism	GBA
+Parkinson Disease and Complex Parkinsonism	GCH1
+Parkinson Disease and Complex Parkinsonism	GRN
+Parkinson Disease and Complex Parkinsonism	LRRK2
+Parkinson Disease and Complex Parkinsonism	LYST
+Parkinson Disease and Complex Parkinsonism	MAPT
+Parkinson Disease and Complex Parkinsonism	OPA3
+Parkinson Disease and Complex Parkinsonism	PANK2
+Parkinson Disease and Complex Parkinsonism	PARK7
+Parkinson Disease and Complex Parkinsonism	PINK1
+Parkinson Disease and Complex Parkinsonism	PLA2G6
+Parkinson Disease and Complex Parkinsonism	PRKRA
+Parkinson Disease and Complex Parkinsonism	RAB39B
+Parkinson Disease and Complex Parkinsonism	SLC30A10
+Parkinson Disease and Complex Parkinsonism	SLC39A14
+Parkinson Disease and Complex Parkinsonism	SLC6A3
+Parkinson Disease and Complex Parkinsonism	SNCA
+Parkinson Disease and Complex Parkinsonism	SPG11
+Parkinson Disease and Complex Parkinsonism	SPR
+Parkinson Disease and Complex Parkinsonism	SYNJ1
+Parkinson Disease and Complex Parkinsonism	TH
+Parkinson Disease and Complex Parkinsonism	TUBB4A
+Parkinson Disease and Complex Parkinsonism	VPS13A
+Parkinson Disease and Complex Parkinsonism	VPS35
+Parkinson Disease and Complex Parkinsonism	WDR45
+Rhabdomyolysis and metabolic muscle disorders	ACAD9
+Rhabdomyolysis and metabolic muscle disorders	ACADM
+Rhabdomyolysis and metabolic muscle disorders	ACADVL
+Rhabdomyolysis and metabolic muscle disorders	AGL
+Rhabdomyolysis and metabolic muscle disorders	ALDOA
+Rhabdomyolysis and metabolic muscle disorders	ANO5
+Rhabdomyolysis and metabolic muscle disorders	CACNA1S
+Rhabdomyolysis and metabolic muscle disorders	CAV3
+Rhabdomyolysis and metabolic muscle disorders	CPT2
+Rhabdomyolysis and metabolic muscle disorders	DMD
+Rhabdomyolysis and metabolic muscle disorders	DYSF
+Rhabdomyolysis and metabolic muscle disorders	ENO3
+Rhabdomyolysis and metabolic muscle disorders	ETFA
+Rhabdomyolysis and metabolic muscle disorders	ETFB
+Rhabdomyolysis and metabolic muscle disorders	ETFDH
+Rhabdomyolysis and metabolic muscle disorders	FKRP
+Rhabdomyolysis and metabolic muscle disorders	FKTN
+Rhabdomyolysis and metabolic muscle disorders	GAA
+Rhabdomyolysis and metabolic muscle disorders	GBE1
+Rhabdomyolysis and metabolic muscle disorders	GYG1
+Rhabdomyolysis and metabolic muscle disorders	GYS1
+Rhabdomyolysis and metabolic muscle disorders	HADHA
+Rhabdomyolysis and metabolic muscle disorders	HADHB
+Rhabdomyolysis and metabolic muscle disorders	ISCU
+Rhabdomyolysis and metabolic muscle disorders	LAMP2
+Rhabdomyolysis and metabolic muscle disorders	LDHA
+Rhabdomyolysis and metabolic muscle disorders	LPIN1
+Rhabdomyolysis and metabolic muscle disorders	PFKM
+Rhabdomyolysis and metabolic muscle disorders	PGAM2
+Rhabdomyolysis and metabolic muscle disorders	PGK1
+Rhabdomyolysis and metabolic muscle disorders	PGM1
+Rhabdomyolysis and metabolic muscle disorders	PHKA1
+Rhabdomyolysis and metabolic muscle disorders	PHKB
+Rhabdomyolysis and metabolic muscle disorders	POLG
+Rhabdomyolysis and metabolic muscle disorders	POLG2
+Rhabdomyolysis and metabolic muscle disorders	PRKAG2
+Rhabdomyolysis and metabolic muscle disorders	PYGM
+Rhabdomyolysis and metabolic muscle disorders	RBCK1
+Rhabdomyolysis and metabolic muscle disorders	RRM2B
+Rhabdomyolysis and metabolic muscle disorders	RYR1
+Rhabdomyolysis and metabolic muscle disorders	SIL1
+Rhabdomyolysis and metabolic muscle disorders	SLC22A5
+Rhabdomyolysis and metabolic muscle disorders	SUCLA2
+Rhabdomyolysis and metabolic muscle disorders	TK2
+Rhabdomyolysis and metabolic muscle disorders	TSEN54
+Rhabdomyolysis and metabolic muscle disorders	TSFM
+Rhabdomyolysis and metabolic muscle disorders	TYMP
+Skeletal Muscle Channelopathies	ADCY5
+Skeletal Muscle Channelopathies	ATP2A1
+Skeletal Muscle Channelopathies	CACNA1S
+Skeletal Muscle Channelopathies	CLCN1
+Skeletal Muscle Channelopathies	KCNA1
+Skeletal Muscle Channelopathies	KCNJ2
+Skeletal Muscle Channelopathies	MT-ATP6
+Skeletal Muscle Channelopathies	MT-ATP8
+Skeletal Muscle Channelopathies	PYGM
+Skeletal Muscle Channelopathies	RYR1
+Skeletal Muscle Channelopathies	SCN4A
+Skeletal Muscle Channelopathies	SLC1A3
+Structural basal ganglia disorders	ADAR
+Structural basal ganglia disorders	AP1S2
+Structural basal ganglia disorders	ATP13A2
+Structural basal ganglia disorders	ATP7B
+Structural basal ganglia disorders	BCS1L
+Structural basal ganglia disorders	C19orf12
+Structural basal ganglia disorders	COASY
+Structural basal ganglia disorders	COX10
+Structural basal ganglia disorders	COX15
+Structural basal ganglia disorders	CP
+Structural basal ganglia disorders	DLAT
+Structural basal ganglia disorders	ETHE1
+Structural basal ganglia disorders	FA2H
+Structural basal ganglia disorders	FOXP2
+Structural basal ganglia disorders	FTL
+Structural basal ganglia disorders	GCDH
+Structural basal ganglia disorders	HIBCH
+Structural basal ganglia disorders	IFIH1
+Structural basal ganglia disorders	ISG15
+Structural basal ganglia disorders	IVD
+Structural basal ganglia disorders	KMT2B
+Structural basal ganglia disorders	MECR
+Structural basal ganglia disorders	MT-ATP6
+Structural basal ganglia disorders	MT-ND1
+Structural basal ganglia disorders	MT-ND6
+Structural basal ganglia disorders	MUT
+Structural basal ganglia disorders	NDUFA1
+Structural basal ganglia disorders	NDUFA10
+Structural basal ganglia disorders	NDUFAF2
+Structural basal ganglia disorders	NDUFAF6
+Structural basal ganglia disorders	NDUFS4
+Structural basal ganglia disorders	NDUFS7
+Structural basal ganglia disorders	NDUFS8
+Structural basal ganglia disorders	NDUFV1
+Structural basal ganglia disorders	OCLN
+Structural basal ganglia disorders	PANK2
+Structural basal ganglia disorders	PCCA
+Structural basal ganglia disorders	PCCB
+Structural basal ganglia disorders	PDE10A
+Structural basal ganglia disorders	PDGFB
+Structural basal ganglia disorders	PDGFRB
+Structural basal ganglia disorders	PDHA1
+Structural basal ganglia disorders	PDP1
+Structural basal ganglia disorders	PLA2G6
+Structural basal ganglia disorders	PRNP
+Structural basal ganglia disorders	RAB39B
+Structural basal ganglia disorders	SDHA
+Structural basal ganglia disorders	SERAC1
+Structural basal ganglia disorders	SLC19A3
+Structural basal ganglia disorders	SLC20A2
+Structural basal ganglia disorders	SLC25A19
+Structural basal ganglia disorders	SLC30A10
+Structural basal ganglia disorders	SLC39A14
+Structural basal ganglia disorders	SUCLA2
+Structural basal ganglia disorders	SUCLG1
+Structural basal ganglia disorders	SURF1
+Structural basal ganglia disorders	TOR1A
+Structural basal ganglia disorders	TUBA1A
+Structural basal ganglia disorders	TUBB4A
+Structural basal ganglia disorders	VAC14
+Structural basal ganglia disorders	VPS13A
+Structural basal ganglia disorders	WDR45
+Structural basal ganglia disorders	XPR1

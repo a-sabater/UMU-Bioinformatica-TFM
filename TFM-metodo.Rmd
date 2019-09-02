@@ -1,0 +1,342 @@
+---
+title: "TFM-metodo"
+author: "Ana Sabater Aguado"
+output:
+  html_document:
+    toc: true
+    theme: united
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include=FALSE}
+setwd("~/TFM")
+```
+
+# Uso de organismos modelo en el descubrimiento de nuevos genes relacionados con el Parkinson Juvenil
+
+## 1. Método para la obtención, filtrado y conteo de fenotipos HP y MP relevantes
+
+En este apartado presentamos dos funciones:
+
+La primera función necesita dos listas: una lista de símbolos de genes humanos y una lista de fenotipos HP relevantes para el fenómeno que se quiere estudiar. Esta función utiliza la API de HumanMine a partir de la que obtiene los términos HP asociaados a la lista de genes humanos. Posteriormente, filtra los fenotipos HP presentes en la segunda lista con la que se invoca a la función y calcula el número de genes asociados a cada fenotipo, añadiéndolos a un contador total. El resultado final de esta función es el número total de genes dentro de la primera lista utilizada asociados a los términos HP que forman parte de la segunda lista con la que se invoca.
+
+La segunda función también necesita dos listas, con la diferencia que los fenotipos que se deben utilizar son MP (la lista de genes sigue siendo de la especie humana). Esta función utiliza la API de MouseMine a partir de la que obtiene los términos MP asociaados a la lista de genes humanos. Posteriormente, filtra los fenotipos MP presentes en la segunda lista con la que se invoca a la función y calcula el número de genes asociados a cada fenotipo, añadiéndolos a un contador total. El resultado final de esta función es el número total de genes dentro de la primera lista utilizada asociados a los términos MP que forman parte de la segunda lista con la que se invoca.
+
+### 1.1 Función específica para extraer fenotipos HP
+
+En el siguiente código presentamos una función que extrae los términos HP de una lista de genes humanos (primera lista), filtra los genes asociados a los términos HP relevantes (segunda lista) y devuelve el número de parejas gen-fenotipo cuyo fenotipo es relevante (es decir, figura dentro de la lista de términos HP relevantes usada al invocarla).
+
+```{r}
+genAsociatedWithHP = function (listagenes, terminosFenotiposHP){
+# Funcion generica para la obtencion de terminos a partir de una lista de genes, una funcion fenotípica y una lista para guardar los resultados de la misma
+queryfunctionfromlistgenes = function(listagenes, funcionphenotype, phenotypeResultado){
+  for(gen in listagenes){
+    resultado = list(funcionphenotype(gen))
+    if (length(resultado) != 0){
+      phenotypeResultado <- c(phenotypeResultado, resultado)
+    } else {
+      phenotypeResultado <- c(phenotypeResultado, "gen no encontrado")
+      
+    }
+  }
+  names(phenotypeResultado) <-  listagenes
+  return(phenotypeResultado)
+}
+# El codigo presentado a continuacion devuelve los terminos HP para cada gen:
+# Creamos una lista para almacenar los terminos HP de una lista de genes
+HPobjeto = list()
+# Funcion para obtener los terminos HP
+phenotypeHPfromgenes = function(gen){
+  req <- curl::curl_fetch_memory(paste0("http://www.humanmine.org/humanmine/service/template/results?name=Gene_Disease_HPO&constraint1=Gene&op1=LOOKUP&value1=",
+                                        paste0(gen,collapse=","),"&extra1=H.+sapiens&format=json"))
+  myjson = jsonlite::fromJSON(rawToChar(req$content))
+  # Guardamos el apartado "results" en un dataframe
+  resultadosHP <- myjson[["results"]]
+  # Extraemos la columna con los terminos HP
+  if (length(resultadosHP) != 0) {
+  HPobjeto = resultadosHP[,6]
+  }
+}
+
+# Lista generica para iterar
+resultados1 = list()
+# Contador para el numero total de parejas gen-fenotipo
+numfenotipos = 0
+# Obtencion de los terminos HP
+HPresultados = queryfunctionfromlistgenes(listagenes, phenotypeHPfromgenes, resultados1)
+# Filtrado del termino HP deseado
+for (termino in terminosFenotiposHP) {
+  misGenes = grep(termino, HPresultados)
+  Genes = vector()
+  for (index in misGenes){
+    nombre = names(HPresultados[index])
+    Genes = c(Genes, nombre)
+  }
+  # Conteo del numero de genes asociados al termino y suma al contador numfenotipos
+  numGenes = length(Genes)
+  numfenotipos = numfenotipos + numGenes
+}
+return(numfenotipos)
+}
+```
+
+### 1.2 Función específica para extraer fenotipos MP
+
+En el siguiente código presentamos una función que extrae los términos MP de una lista de genes humanos (primera lista), filtra los genes asociados a los términos HP relevantes (segunda lista) y devuelve el número de parejas gen-fenotipo cuyo fenotipo es relevante (es decir, figura dentro de la lista de términos HP relevantes usada al invocarla).
+
+```{r}
+genAsociatedWithMP = function (listagenes, terminosFenotiposMP){
+# Funcion generica para la obtencion de terminos a partir de una lista de genes, una funcion fenotípica y una lista para guardar los resultados de la misma
+queryfunctionfromlistgenes = function(listagenes, funcionphenotype, phenotypeResultado){
+  for(gen in listagenes){
+    resultado = list(funcionphenotype(gen))
+    if (length(resultado) != 0){
+      phenotypeResultado <- c(phenotypeResultado, resultado)
+    } else {
+      phenotypeResultado <- c(phenotypeResultado, "gen no encontrado")
+      
+    }
+  }
+  names(phenotypeResultado) <-  listagenes
+  return(phenotypeResultado)
+}
+# El codigo presentado a continuacion devuelve los terminos HP para cada gen:
+# Creamos una lista para almacenar los terminos MP de una lista de genes
+MPresult = list()
+
+phenotypeMPfromgenes = function(gen){
+  req <- curl::curl_fetch_memory(paste0("http://www.mousemine.org/mousemine/service/template/results?name=HGene_MPhenotype&constraint1=Gene&op1=LOOKUP&value1=",
+                                        paste0(gen,collapse=","),"&extra1=&format=json"))
+  myjson = jsonlite::fromJSON(rawToChar(req$content))
+  # Guardamos el apartado "results" en un dataframe
+  resultadosMGI <- myjson[["results"]]
+  # Extraemos la columna con los MP
+  if (length(resultadosMGI) != 0) {
+  MPoresult = resultadosMGI[,7]
+  }
+}
+
+# Lista generica para iterar
+resultados1 = list()
+# Contador para el numero total de parejas gen-fenotipo
+numfenotipos = 0
+# Obtencion de los terminos HP
+MPresultados = queryfunctionfromlistgenes(listagenes, phenotypeMPfromgenes, resultados1)
+# Filtrado del termino HP deseado
+for (termino in terminosFenotiposMP) {
+  misGenes = grep(termino, MPresultados)
+  Genes = vector()
+  for (index in misGenes){
+    nombre = names(MPresultados[index])
+    Genes = c(Genes, nombre)
+  }
+  # Conteo del numero de genes asociados al termino y suma al contador numfenotipos
+  numGenes = length(Genes)
+  numfenotipos = numfenotipos + numGenes
+}
+return(numfenotipos)
+}
+```
+
+## 2. Evaluación de genes conocidos como causantes de Parkinson (panel de genes de England Genomics)
+
+El panel de genes de England Genomics comprende un total de 34 genes conocidos como causantes de EP. A partir de un fichero de texto que comprende genes conocidos asociados a diferentes trastornos neurológicos, el siguiente código se ha utilizado para filtrar los genes asociados a EP.
+
+```{r}
+genegroups <- read.delim("~/TFM/genegroups.txt")
+# Filtrado de genes. Utilizaremos el paquete dplyr ya que facilita mucho esta tarea
+library(dplyr)
+genes.park <- genegroups %>% filter(Disease == "Parkinson Disease and Complex Parkinsonism")
+parkgenesConocidos <- as.character(genes.park$gene)
+cat("Listado de genes conocidos: ", "\n", parkgenesConocidos)
+cat("Número total de genes conocidos: ", length(parkgenesConocidos))
+```
+
+Como se puede observar, contamos con un total de 34 genes conocidos por causar EP.
+
+El siguiente paso es elaborar o exportar un vector con términos relevantes. En nuestro caso se trata de genes predichos como causantes de EP, pero el proceso no es específico para este tipo de trastorno. A continuación creamos dos vectores, uno para términos HP y otro para términos MP:
+
+```{r}
+HPrelevantesPD <- scan("HP-PredichosPD.txt", character(), quote = "")
+cat("Listado de términos HP relevantes para EP: ", "\n", HPrelevantesPD, "\n")
+cat("Número de términos HP: ", length(HPrelevantesPD), "\n", "\n")
+MPrelevantesPD <- scan("MP-PredichosPD.txt", character(), quote = "")
+cat("Listado de términos MP relevantes para EP: ", "\n",MPrelevantesPD, "\n")
+cat("Número de términos MP: ", length(MPrelevantesPD))
+```
+
+Se utilizaron un total de 9 términos HP y 5 términos MP, que se corresponden con los observados en más de un 15% de los genes conocidos como causantes de Parkinson que se detectaron en el proceso de caracterización.
+
+### 2.1 Ratio del número de términos HP asociados a Parkinson en genes conocidos
+
+Una vez tenemos un listado de genes conocidos como causantes de Parkinson y un listado de términos HP relevantes para dicha enferemdad, utilizamos la función que extrae HP para obtener el número total de parejas gen-fenotipo en genes conocidos como causantes de Parkinson. Después calculamos el ratio, teniendo en cuenta el número total de genes que se han utilizado (en nuestro caso, 34).
+
+```{r}
+genesParkConocidosHP = genAsociatedWithHP(parkgenesConocidos, HPrelevantesPD)
+ratioConocidosHP = (genesParkConocidosHP/length(parkgenesConocidos))
+cat("Ratio correspondiente a los términos HP de genes conocidos como causantes de EP:", "\n", ratioConocidosHP)
+```
+
+### 2.2 Ratio del número de términos MP asociados a Parkinson en genes conocidos
+
+Una vez tenemos un listado de genes conocidos como causantes de Parkinson y un listado de términos MP relevantes para dicha enferemdad, utilizamos la función que extrae MP para obtener el número total de parejas gen-fenotipo en genes conocidos como causantes de Parkinson. Después calculamos el ratio, teniendo en cuenta el número total de genes que se han utilizado (en nuestro caso, 34).
+
+```{r}
+genesParkConocidosMP = genAsociatedWithMP(parkgenesConocidos, MPrelevantesPD)
+ratioConocidosMP = (genesParkConocidosMP/length(parkgenesConocidos))
+cat("Ratio correspondiente a los términos MP de genes conocidos como causantes de EP:", "\n",ratioConocidosMP)
+```
+
+Observamos que el ratio de términos HP es mucho mayor que el de términos MP. Dado que se trata de genes conocidos como causantes de Parkinson, han sido muy estudiados en humanos con el fin de buscar dianas terapéuticas, la caracterización de las bases fisiológicas de la enfermedad y otros muchos ámbitos. 
+
+## 3. Evaluación de genes predichos por Botía y colaboradores
+
+Las predicciones mediante machine learning incluían 52 genes asociados a Parkinson. En el siguiente código filtramos dichos genes a partir de un fichero que incluía diversos trastornos neurológicos, y procesamos el texto resultante para obtener el símbolo de los genes:
+
+```{r}
+genepredictions <- read.csv("~/TFM/predictionsr0.3.csv")
+# Filtrado de genes asociados a Parkinson. Usamos el paquete dplyr
+library(dplyr)
+genesPredPark = dplyr::filter(genepredictions, grepl('Parkinson', panel))
+# Obtenemos el nombre de los genes
+ParkPredGenes = as.vector(genesPredPark[,3])
+cat("Listado de genes predichos como causantes de EP:", "\n", ParkPredGenes, "\n", "\n")
+cat("Número total de genes predichos: ", length(ParkPredGenes))
+```
+
+### 3.1 Número de términos HP asociados a Parkinson en genes predichos como causantes de Parkinson
+
+Con el listado de genes predichos como causantes de Parkinson, llevaremos a cabo el mismo procedimiento que con los genes conocidos. Utilizaremos la función para obtener los términos HP relevantes y calcularemos el ratio total.
+
+```{r}
+genesParkPredichosHP = genAsociatedWithHP(ParkPredGenes, HPrelevantesPD)
+ratioPredichosHP = (genesParkPredichosHP/length(ParkPredGenes))
+cat("Ratio correspondiente a los términos HP de genes predichos como causantes de EP:", "\n", ratioPredichosHP)
+```
+
+### 3.2 Número de términos MP asociados a Parkinson en genes predichos como causantes de Parkinson
+
+Con el listado de genes predichos como causantes de Parkinson, llevaremos a cabo el mismo procedimiento que con los genes conocidos. Utilizaremos la función para obtener los términos MP relevantes y calcularemos el ratio total.
+
+```{r}
+genesParkPredichosMP = genAsociatedWithMP(ParkPredGenes, MPrelevantesPD)
+ratioPredichosMP = (genesParkPredichosMP/length(ParkPredGenes))
+cat("Ratio correspondiente a los términos MP de genes predichos como causantes de EP:", "\n",ratioPredichosMP)
+```
+
+## 4. Evaluación de un conjunto de genes aleatorios 
+
+Con el fin de generar conjuntos aleatorios de genes humanos, se utilizó un conjunto de casi 18.000 genes codificantes de proteínas. Se trata del mismo conjunto de genes usados en la predicción mediante machine learning realizada por Botía y colaboradores en 2018.
+
+```{r}
+genAll <- scan("totalgenes.txt", character(), quote = "")
+cat("Número total de genes: ", length(genAll))
+```
+
+Con el siguiente código tomamos 1000 subconjuntos aleatorios de tamaño 52 (el mismo número de genes que las predicciones de genes asociados a Parkinson) del conjunto de 18.000 genes cargado anteriormente:
+
+```{r}
+set.seed(123)
+genesRandom <- replicate(1000, sample(genAll, length(ParkPredGenes), replace=TRUE))
+str(genesRandom)
+```
+
+El resultado del código anterior es una matriz con 52 filas y 1000 columnas.
+
+### 4.1 Número de términos HP asociados a PD en genes aleatorios
+
+A partir de los 1000 subconjuntos de genes obtenidos en el apartado anterior, vamos a utilizar la función que obtiene los términos HP relevantes para Parkinson e introducirlos en un vector:
+
+```{r}
+# Creamos un vector para almacenar el número de fenotipos relevantes en cada subconjunto
+numHPrelevantesPD = list()
+ratiosRandomHP = list()
+# Iteramos sobre la matriz con los 1000 subconjuntos aleatorios de genes y usamos la función que obtiene el número de HP relacionados con Parkinson
+for (i in 1:1000) {
+conjuntoGenes = as.vector(genesRandom[,i])
+numgenesParkRandomHP = genAsociatedWithHP(conjuntoGenes, HPrelevantesPD)
+ratioHP = (numgenesParkRandomHP/length(ParkPredGenes))
+ratiosRandomHP = c(ratioHP, ratiosRandomHP)
+}
+```
+
+A continuación, calculamos el p-valor empírico mediante la fórmula:
+
+tienes mil ratios, almacenados en “randomratios” y el ratio observado a partir de las predicciones, lo tienes en “predratio”. Entonces, tu p-valor empírico puedes calcularlo a partir de la siguiente expresión:
+
+(1 + sum(ratiosRandomHP > ratioPredichosHP)) / (1 + length(ratiosRandomHP))
+
+```{r}
+# Filtramos los ratios aleatorios que son mayores que los predichos
+numRandomHPMayores = which(ratiosRandomHP > ratioPredichosHP)
+ratiosRandomHPMayores = length(numRandomHPMayores)
+cat("El número de ratios de genes al azar mayores al ratio de genes predichos es:", ratiosRandomHPMayores, "\n")
+# Calculamos el p-valor
+pvalorHP = (1 + ratiosRandomHPMayores) / (1 + length(ratiosRandomHP))
+cat("El p-valor es:", pvalorHP)
+```
+
+Entre los ratios obtenidos con los 1000 conjuntos de genes aleatorios, un total de 40 eran mayores que el ratio obtenido en los genes predichos como causantes de Parkinson. El p-valor empírico obtenido es 0,0409 (menor de 0,5), por lo que concluimos que existen diferencias significativas entre los genes predichos y los conjuntos de genes tomados al azar.
+
+
+Además de calcular el p-valor, representamos el histograma con los ratios de los 1000 subconjuntos de genes aleatorios generados anteriormente. La línea en azul se corresponde con el ratio de términos HP en genes predichos como causantes de Parkinson.
+
+```{r}
+ratiosRandomHP2 <- unlist(ratiosRandomHP, use.names = FALSE)
+hist(ratiosRandomHP2, main = "Ratios del número de términos HP en conjuntos de genes aleatorios", xlab = "Ratios de términos HP en genes aleatorios", ylab = "Frecuencia")
+# Añadimos una linea vertical que representa el numero de terminos HP en los genes predichos
+abline(v = ratioPredichosHP, col="blue", lwd=2, lty=2)
+text(0.22, 400, "ratio número de términos", col = "blue")
+text(0.22, 350, "HP en genes predichos", col = "blue")
+```
+
+### 4.2 Número de términos MP asociados a Parkinson en genes aleatorios
+
+A partir de los 1000 subconjuntos de genes obtenidos en el apartado anterior, vamos a utilizar la función que obtiene los términos MP relevantes para Parkinson e introducirlos en un vector:
+
+```{r}
+# Creamos un vector para almacenar el número de fenotipos relevantes en cada subconjunto
+numMPrelevantesPD = list()
+ratiosRandomMP = list()
+# Iteramos sobre la matriz con los 1000 subconjuntos aleatorios de genes y usamos la función que obtiene el número de HP relacionados con Parkinson
+for (i in 1:1000) {
+conjuntoGenes = as.vector(genesRandom[,i])
+numgenesParkRandomMP = genAsociatedWithMP(conjuntoGenes, MPrelevantesPD)
+numMPrelevantesPD = c(numMPrelevantesPD, numgenesParkRandomMP)
+ratioMP = (numgenesParkRandomMP/52)
+ratiosRandomMP = c(ratiosRandomMP, ratioMP)
+}
+```
+
+Calculamos el p-valor con la misma fórmula utilizada en el apartado anterior:
+
+```{r}
+# Filtramos los ratios aleatorios que son mayores que los predichos
+numRandomMPmayores = which(ratiosRandomMP > ratioPredichosMP)
+ratiosRandomMPmayores = length(numRandomMPmayores)
+cat("El número de ratios de genes al azar mayores al ratio de genes predichos es:", ratiosRandomMPmayores, "\n")
+# Calculamos el p-valor
+pvalorMP = (1 + ratiosRandomMPmayores) / (1 + length(ratiosRandomMP))
+cat("El p-valor es:", pvalorMP)
+```
+
+Entre los ratios obtenidos con los 1000 conjuntos de genes aleatorios, no se encontró ningun ratio que fuera mayor que el obtenido en los genes predichos como causantes de Parkinson. El p-valor empírico obtenido es 0,0009 (menor de 0,5), por lo que concluimos que existen diferencias significativas entre los genes predichos y los conjuntos de genes tomados al azar.
+
+Además de calcular el p-valor, representamos el histograma con los ratios de los 1000 subconjuntos de genes aleatorios. La línea en azul se corresponde con el ratio de términos MP en genes predichos como causantes de Parkinson.
+
+```{r}
+ratiosRandomMP2 <- unlist(ratiosRandomHP, use.names = FALSE)
+hist(ratiosRandomMP2, xlim=c(0,0.5), main = "Ratios del número de términos MP en conjuntos de genes aleatorios", xlab = "Ratios de términos MP en genes aleatorios", ylab = "Frecuencia")
+# Añadimos una linea vertical que representa el ratio de terminos MP en los genes predichos
+abline(v = ratioPredichosMP, col="blue", lwd=2, lty=2)
+text(0.31, 400, "ratio número de términos", col = "blue")
+text(0.31, 350, "MP en genes predichos", col = "blue")
+```
+
+
+
+
+

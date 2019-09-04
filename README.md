@@ -4,10 +4,10 @@
 Información referente al TFM realizado para el Máster de Bioinformática de la Universidad de Murcia. 
 
 
-Título: Uso de organismos modelo en el descubrimiento de nuevos genes relacionados con el Parkinson Juvenil.  
-Autor: Ana Sabater Aguado.  
-Director: Juan Botía Blaya.  
-Curso: 2018-2019.  
+**Título**: Uso de organismos modelo en el descubrimiento de nuevos genes relacionados con el Parkinson Juvenil.  
+**Autor**: Ana Sabater Aguado.  
+**Director**: Juan A. Botía.  
+**Curso**: 2018-2019.  
 
 
 El primer paso del método se corresponde con el R Markdown TFM-Caracterización.Rmd. En él se utiliza una lista de genes conocidos como causantes de la Enfermedad de Parkinson (EP) para extraer los términos fenotípicos. La caracterización de los genes se realizó manualmente a partir de los términos extraídos en este script.

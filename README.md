@@ -1,7 +1,7 @@
 # UMU-Bioinformatica-TFM
 
 
-Información referente al TFM realizado para el Máster de Bioinformática de la Universidad de Murcia. Este repositorio contiene el pdf del TFM, los scripts generados en formato Rmd e informes obtenidos mediante RStudio en formato html, así como los ficheros utilizados en los scripts.
+Información referente al Trabajo Fin de Máster (TFM) realizado para el Máster de Bioinformática de la Universidad de Murcia. Este repositorio contiene el pdf del TFM, los scripts generados en formato Rmd e informes obtenidos mediante RStudio en formato html, así como los ficheros utilizados en los scripts.
 
 
 **Título**: Uso de organismos modelo en el descubrimiento de nuevos genes relacionados con el Parkinson Juvenil.  

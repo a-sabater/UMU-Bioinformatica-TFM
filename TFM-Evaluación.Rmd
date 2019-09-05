@@ -510,7 +510,7 @@ pvalorHP = (1 + ratiosRandomHPMayores) / (1 + length(ratiosRandomHP))
 cat("El p-valor es:", pvalorHP)
 ```
 
-Entre los ratios obtenidos con los 1000 conjuntos de genes aleatorios, un total de 40 eran mayores que el ratio obtenido en los genes predichos como causantes de Parkinson. El p-valor empírico obtenido es 0,0409 (menor de 0,5), por lo que concluimos que existen diferencias significativas entre los genes predichos y los conjuntos de genes tomados al azar.
+Entre los ratios obtenidos con los 1000 conjuntos de genes aleatorios, un total de 40 eran mayores que el ratio obtenido en los genes predichos como causantes de Parkinson. El p-valor empírico obtenido es 0,0409 (menor de 0,05), por lo que concluimos que existen diferencias significativas entre los genes predichos y los conjuntos de genes tomados al azar.
 
 Además de calcular el p-valor, representamos el histograma con los ratios de los 1000 subconjuntos de genes aleatorios generados anteriormente. La línea en azul se corresponde con el ratio de términos HP en genes predichos como causantes de Parkinson.
 
@@ -555,7 +555,7 @@ pvalorMP = (1 + ratiosRandomMPmayores) / (1 + length(ratiosRandomMP))
 cat("El p-valor es:", pvalorMP)
 ```
 
-Entre los ratios obtenidos con los 1000 conjuntos de genes aleatorios, no se encontró ningun ratio que fuera mayor que el obtenido en los genes predichos como causantes de Parkinson. El p-valor empírico obtenido es 0,0009 (menor de 0,5), por lo que concluimos que existen diferencias significativas entre los genes predichos y los conjuntos de genes tomados al azar.
+Entre los ratios obtenidos con los 1000 conjuntos de genes aleatorios, no se encontró ningun ratio que fuera mayor que el obtenido en los genes predichos como causantes de Parkinson. El p-valor empírico obtenido es 0,0009 (menor de 0,05), por lo que concluimos que existen diferencias significativas entre los genes predichos y los conjuntos de genes tomados al azar.
 
 Además de calcular el p-valor, representamos el histograma con los ratios de los 1000 subconjuntos de genes aleatorios. La línea en azul se corresponde con el ratio de términos MP en genes predichos como causantes de Parkinson.
 
